@@ -1,62 +1,50 @@
-# SD-OTA und Recovery
+# Firmware-Update und Wiederherstellung per SD-Karte (Offline-Update)
 
-Mit einer SD-Karte kann ein vollstaendiges OTA-Bundle ohne Netzwerk eingespielt werden. Der Ablauf ist fuer Upgrade, Downgrade und die Wiederherstellung einer unvollstaendigen Webapp geeignet.
+Falls kein WLAN verfügbar ist oder die Weboberfläche des Testers nicht mehr richtig lädt, können Sie das Gerät ganz einfach über eine SD-Karte aktualisieren oder reparieren.
 
-## SD-Karte vorbereiten
+---
 
-Der eingebaute Sockel ist fuer Karten im Standard-SD-Format. microSD-Karten funktionieren mit einem rein passiven microSD-auf-SD-Adapter ebenso.
+## 💾 1. SD-Karte vorbereiten
 
-Unterstuetzt werden Karten mit FAT oder FAT32:
+Der Tester besitzt einen Standard-SD-Kartenschnittstelle. Sie können auch eine microSD-Karte mit einem passenden SD-Adapter nutzen.
 
-- SD und SDHC, empfohlen mit 4 bis 32 GB Kapazitaet.
-- SDXC-Karten ab 64 GB nur, wenn sie vorher als FAT32 formatiert wurden. Das ab Werk uebliche exFAT wird nicht unterstuetzt.
-- Fuer Service und OTA reicht eine kleine SDHC-Karte vollstaendig aus; das Bundle belegt derzeit nur wenige Megabyte.
+**Voraussetzungen für die Karte:**
+- **Größe:** Empfohlen werden Karten mit 4 bis 32 GB Speicherplatz.
+- **Formatierung:** Die Karte muss im Format **FAT** oder **FAT32** formatiert sein. (Sehr große Karten ab 64 GB sind oft als 'exFAT' vorformatiert und müssen am PC zwingend auf FAT32 umgestellt werden).
 
-1. Die Karte mit FAT/FAT32 formatieren.
-2. Das erzeugte kombinierte `.ota`-Bundle in das Stammverzeichnis der Karte kopieren.
-3. Die Karte vor dem Einschalten einstecken.
+**Schritte am PC:**
+1. Laden Sie das aktuelle Update-Paket (die Datei mit der Endung `.ota`) aus dem `/bin`-Ordner unseres Portals herunter.
+2. Kopieren Sie die Datei direkt auf die SD-Karte (nicht in einen Unterordner!).
+3. Ändern Sie **nicht** den Namen der Datei. Der Tester ignoriert Dateien, die nicht exakt dem offiziellen Namensschema entsprechen.
 
-Der Dateiname muss dem Build-Schema entsprechen, zum Beispiel:
+---
 
-```text
-SVA-Fencing-Tester.develop_0.7.0+70_2026-08-17_08_16.ota
-```
+## 🔌 2. Update oder Reparatur durchführen
 
-Dateien mit ungueltigem Namen, Header oder Groesse werden ignoriert. Bei mehreren gueltigen Bundles waehlt das Geraet die hoechste gefundene Version.
+1. Schalten Sie den SVA-Fencing-Tester komplett **aus**.
+2. Schieben Sie die vorbereitete SD-Karte in den Kartenslot des Testers.
+3. Schalten Sie das Gerät **ein**.
 
-## Startdialog
+### Was passiert auf dem Bildschirm?
+Der Tester erkennt die Update-Datei und zeigt Ihnen für **10 Sekunden** einen Dialog auf dem Display an:
 
-Nach dem SD-Mount erscheint bei einer passenden OTA-Datei fuer zehn Sekunden ein Touch-Dialog:
+*   **Knopf „Start device“ (Normaler Start):** Wenn Sie hier tippen (oder die 10 Sekunden ablaufen lassen), startet das Gerät ganz normal, ohne etwas zu verändern.
+*   **Zweiter Knopf („Upgrade“ / „Downgrade“ / „Recover“):** Tippen Sie hier, um die Aktion zu starten. Das Gerät erkennt automatisch, was zu tun ist:
+    *   **Upgrade:** Es wird eine neuere Version aufgespielt.
+    *   **Downgrade:** Es wird eine ältere Version aufgespielt.
+    *   **Recover (Wiederherstellung):** Das System repariert sich selbst, falls wichtige Systemdateien oder die Weboberfläche beschädigt wurden.
 
-- `Start device` setzt den normalen Start fort. Dieser Button ist der Default und besitzt die ablaufende Leiste am unteren Rand.
-- Der zweite Button fuehrt je nach Zustand `Upgrade`, `Downgrade` oder `Recover` aus.
+⚠️ **WICHTIG:** Schalten Sie den Tester während des Update-Vorgangs niemals aus und entnehmen Sie die SD-Karte nicht, bis der Vorgang vollständig abgeschlossen ist!
 
-Die Aktion folgt der Version des SD-Bundles: neuer bedeutet `Upgrade`, aelter bedeutet `Downgrade` und die gleiche Version bedeutet `Recover`. Ein Bundle gleicher Version wird nur dann ohne Dialog uebersprungen, wenn `SVA_OTA_APPLIED.txt` zu diesem Geraet passt und die Webapp gesund ist. Fehlt `webapp_dist/index.html.gz` oder `webapp_dist/js/app.js.gz`, wird ein gleiches Bundle daher ebenfalls als `Recover` angeboten. Fehlende Logos oder andere optionale Assets loesen keinen Recovery-Modus aus.
+---
 
-Die Dialogsprache folgt der gespeicherten Geraetesprache. Bei neuen oder nicht lesbaren Parametern ist Englisch der Default.
+## ⚡ 3. Problembehebung & Automatisches Update (Force Update)
 
-## Wiederholte Downgrade-Hinweise
+### Das Gerät bietet das Update nicht mehr an?
+Wenn Sie ein Update dreimal hintereinander ignorieren oder abbrechen (durch Tippen auf „Start device“), merkt sich der Tester dies auf der SD-Karte. Er wird Ihnen dieses spezifische Update danach nicht mehr automatisch vorschlagen, um Sie im Vereinsalltag nicht zu stören.
 
-Ein normales Ueberspringen eines Downgrades durch Touch auf `Start device` oder durch Timeout wird auf der SD-Karte gezaehlt. Die Datei `/SVA_OTA_DISMISSED.txt` enthaelt:
-
-```text
-MAC|appCRC|webCRC|count
-```
-
-Nach drei Ueberspringungen wird dieses Bundle auf diesem Geraet bei gesunder Webapp nicht mehr angeboten. Ein anderes Bundle startet wegen anderer CRCs wieder bei null. Upgrade und Recovery ignorieren diesen Zaehler.
-
-`/SVA_OTA_APPLIED.txt` wird nur nach einer erfolgreichen OTA geschrieben und enthaelt die MAC-Adresse. Bei gleicher Karte und gleichem Geraet verhindert er erneute Angebote fuer gleich alte oder aeltere Bundles.
-
-## Einmaliges Force-Update
-
-Die leere Datei `/SVA_OTA_FORCE.txt` im SD-Stammverzeichnis erzwingt die Anwendung des ausgewaehlten gueltigen Bundles ohne Dialog. Sie umgeht Versionsvergleich, Erfolgsmarker und Dismiss-Zaehler.
-
-Die Force-Datei wird vor dem Updateversuch geloescht. Sie ist daher einmalig und kann keine Boot-Schleife verursachen. Bei einem Fehler startet das Geraet anschliessend normal; fuer einen weiteren Force-Versuch muss die Datei erneut auf die Karte gelegt werden.
-
-## Sicherheit und Speicherbedarf
-
-Firmware- und Web-Payload werden vor der Aktivierung per CRC geprueft. Beim SD-OTA wird das Webarchiv direkt von der Karte in den LittleFS-Staging-Bereich entpackt; es wird keine zweite Archivkopie in LittleFS angelegt. Die vorhandene `webapp_dist` wird vor dem Leeren nach PSRAM gesichert und bei einem Fehler nach Moeglichkeit wiederhergestellt.
-
-Fuer OTA und Rollback ist eine Variante mit mindestens 8 MB PSRAM erforderlich (`N8R8` oder `N16R8`).
-
-Waerend der Aktualisierung das Geraet nicht ausschalten und die SD-Karte nicht entfernen.
+### Ein Update erzwingen („Force Update“):
+Falls ein Update blockiert blockiert ist oder Sie den Bestätigungsdialog komplett überspringen möchten:
+1. Erstellen Sie am PC eine leere Textdatei auf der SD-Karte und nennen Sie diese exakt: `SVA_OTA_FORCE.txt`.
+2. Stecken Sie die Karte in den ausgeschalteten Tester und starten Sie ihn.
+3. Das Gerät führt das Update nun **sofort und ohne jegliche Nachfrage** beim Starten aus. Die Datei wird dabei vom Tester automatisch gelöscht, um Endlos-Schleifen zu verhindern.
