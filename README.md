@@ -11,7 +11,7 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 
 * 🤖 **[Firmware & OTA-Updates](./bin)** – Enthält die `version.json` für den automatischen Versionsabgleich über den Client-Browser sowie die offiziellen Update-Bundles.
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
-* ⚖️ **[Regulatory Compliance & Impressum](./docs/compliance)** – Unsere rechtssichere Übersicht für FIE, CE und CRA sowie die gesetzliche Anbieterkennzeichnung mitsamt Spamschutz-Kontakt.
+* ⚖️ **[Regulatory Compliance & Impressum](./docs/compliance)** – Unsere rechtssichere Übersicht für FIE, CE und CRA, die gesetzliche Anbieterkennzeichnung sowie die vollständige [Open-Source-Lizenzliste (Third-Party)](./docs/compliance/THIRD_PARTY_LICENSES.md).
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
 * 💬 **[Community & Support](../../discussions)** – Unser virtuelles Vereinsheim. Nutze den Tab "Discussions" für Fragen, Erfahrungsaustausch und Best Practices.
 * 🐛 **[Fehler melden](../../issues)** – Nutze den Tab "Issues" für strukturierte Bug-Reports zur Firmware, Webapp oder Hardware.
