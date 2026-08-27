@@ -1,6 +1,6 @@
 # SVA-Fencing-Tester-Portal 🤺
 
-Willkommen im offiziellen Portal für den SVA-Fencing-Tester. Dieses Projekt wird als private Non-Profit-Initiative im Ehrenamt geführt, um Fechtvereine und Fechter mit zuverlässiger Testtechnologie zu unterstützen.
+Willkommen im offiziellen Portal für den SVA-Fencing-Tester. Dieses Projekt wird als private Non-Profit-Initiative im Ehrenamt geführt, um Fechtvereine und Fechter mit einem zuverlässigen Werkzeug für die Wartung und Materialkontrolle zu unterstützen.
 
 ⚠️ **AKTUELLER STATUS: UNDER CONSTRUCTION (Entwicklungsphase)**
 Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der Device-Webapp-Verlinkung. Die hier hinterlegten Firmware-Dateien, Schaltpläne und Dokumente sind reine Testversionen und noch nicht für den produktiven Einsatz freigegeben. Anfragen für Hardware-Komponenten sind in dieser Phase noch deaktiviert.
