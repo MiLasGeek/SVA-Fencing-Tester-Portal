@@ -1,0 +1,16 @@
+SVA-Fencing-Tester-Portal – Custom Hybrid License (Non-Profit)
+
+1. LEGAL STATUS & WARRANTY DISCLAIMER
+This repository is a private, non-profit, and voluntary initiative to support the fencing community. All files, firmware binaries, and 3D design assets are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of functionality, fitness for a particular purpose, or completeness. In no event shall the author be liable for any claim, damages, or other liability arising from the use of the firmware or hardware designs.
+
+2. SOFTWARE & FIRMWARE (Closed-Source / Binary-Only Distribution)
+The compiled firmware files, images, and custom update packages provided in the `/bin` directory are proprietary and remain under exclusive ownership.
+- You are granted the right to download and use the binaries exclusively for operating the SVA-Fencing-Tester device.
+- Decompiling, reverse engineering, disassembling, or modifying the binary code is strictly prohibited.
+- Commercial distribution, resale, or sublicensing of the firmware binaries, whether standalone or bundled, is strictly prohibited.
+
+3. HARDWARE & 3D PRINTING DESIGNS (Creative Commons CC BY-NC-SA 4.0)
+All 3D printing and hardware construction files (.STL, .STEP) provided in the `/hardware` directory are licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License (CC BY-NC-SA 4.0).
+- You are free to download, modify, and 3D-print these files for personal use or for the internal, non-commercial use of your fencing club.
+- Any commercial exploitation, including selling the printed enclosures, using the files for commercial manufacturing, or distributing clones of the device for profit, is strictly prohibited.
+- Any modified or derived versions of the enclosure designs must be distributed under the exact same license terms (CC BY-NC-SA 4.0).
