@@ -8,14 +8,16 @@ If you discover a potential security vulnerability in our custom firmware, the l
 
 ---
 
-## 📋 Supported Versions
+## 📋 Supported Versions & Hardware
 
-We exclusively support and patch the active production hardware revision hosted in this portal. Legacy prototyping revisions are deprecated.
+We exclusively support and patch the active hardware revisions hosted in this portal. The underlying device firmware automatically detects the hardware revision at runtime.
 
 | Hardware Revision | Firmware Branch | Security Status |
 | :--- | :--- | :--- |
-| **Revision 4 (Rev 4)** | `release` | ✔️ Actively Supported |
-| Revision 2 (Legacy) | Deprecated | ❌ Not Supported |
+| **Revision 4 (Rev 4)** | `main` | ✔️ Actively Supported |
+| **Revision 2 (Rev 2)** | `main` | ✔️ Actively Supported |
+
+*Note: Since the project is in active development, there are currently no deprecated or unsupported production versions available.*
 
 ---
 
@@ -23,9 +25,8 @@ We exclusively support and patch the active production hardware revision hosted 
 
 To ensure full confidentiality and protect the integrity of the device infrastructure, please follow our private reporting process:
 
-1. **Send an Email:** Contact us directly at **[Deine-Private-Sicherheits-E-Mail@domain.de]**.
-2. **Encrypted Communication (Optional but Recommended):** If you wish to encrypt your report, please request our PGP public key via the initial email sequence.
-3. **What to Include:**
+1. **Private Contact:** Please use the secure, spam-protected contact details provided at the bottom of our official **[Regulatory Compliance & Impressum Document](./docs/compliance)**.
+2. **What to Include:**
    * A detailed description of the vulnerability.
    * The active firmware version and build number (e.g., `0.7.0+71`).
    * A proof-of-concept (PoC) or step-by-step instructions to reproduce the behavior.
@@ -40,7 +41,7 @@ Once a private report is received, we act according to the following ehrenamt ti
 * **Acknowledgment:** We will acknowledge receipt of your report within **48 to 72 hours** with a private response.
 * **Evaluation:** Our team will analyze the bug and validate if it affects the encrypted core loop or the local network stack.
 * **Coordinated Fix:** If the vulnerability is verified, we will work on a silent patch in our private development branch.
-* **Deployment:** The fixed version will be compiled, packaged into the encrypted `.ota` custom bundle format, and manually pushed to the public `release` branch.
+* **Deployment:** The fixed version will be compiled, packaged into the encrypted `.ota` custom bundle format, and manually pushed to the public `main` branch.
 * **Public Advisory:** A security advisory detailing the fix will only be published (if necessary) after the patch is active and deployed to the fencing clubs to prevent exploits in the field.
 
 Thank you for scanning responsibly and helping us keep the fencing community secure!
