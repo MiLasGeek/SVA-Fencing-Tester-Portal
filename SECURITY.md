@@ -4,6 +4,8 @@ The SVA-Fencing-Tester initiative is committed to maintaining the highest level 
 
 If you discover a potential security vulnerability in our custom firmware, the local REST API, the encrypted `.ota` bundle format, or the embedded web application, we strongly encourage you to report it to us privately.
 
+We actively monitor automated dependency alerts (GitHub Dependabot) for our webapp toolchain and apply ecosystem patches regularly before compilation.
+
 **Please do not open a public GitHub Issue or public Discussion for security vulnerabilities.**
 
 ---
@@ -36,12 +38,14 @@ To ensure full confidentiality and protect the integrity of the device infrastru
 
 ## 🤝 Our Commitment (The Disclosure Process)
 
-Once a private report is received, we act according to the following ehrenamt timeline based on voluntary availability:
+This project is fully operated on a voluntary, non-profit basis in our spare time. While cybersecurity is highly important to us and we aim to react promptly, please understand that voluntary capacity, professional workloads, or holidays may lead to temporary delays. 
 
-* **Acknowledgment:** We will acknowledge receipt of your report within **48 to 72 hours** with a private response.
-* **Evaluation:** Our team will analyze the bug and validate if it affects the encrypted core loop or the local network stack.
-* **Coordinated Fix:** If the vulnerability is verified, we will work on a silent patch in our private development branch.
-* **Deployment:** The fixed version will be compiled, packaged into the encrypted `.ota` custom bundle format, and manually pushed to the public `main` branch.
+We act according to the following best-effort timeline:
+
+* **Acknowledgment:** We typically strive to acknowledge receipt of your report with a private response within **3 to 7 days**. 
+* **Evaluation:** We will review and validate the bug to determine if it affects the encrypted core loop or the local network stack.
+* **Coordinated Fix:** Verified vulnerabilities will be patched within our private development branch based on availability.
+* **Deployment:** The fixed version will be compiled, packaged into the encrypted `.ota` custom bundle format, and pushed to the public `main` branch.
 * **Public Advisory:** A security advisory detailing the fix will only be published (if necessary) after the patch is active and deployed to the fencing clubs to prevent exploits in the field.
 
-Thank you for scanning responsibly and helping us keep the fencing community secure!
+Thank you for scanning responsibly, respecting our voluntary capacity, and helping us keep the fencing community secure!
