@@ -1,0 +1,11 @@
+{
+  "project": "SVA-Fencing-Tester",
+  "latest_release": {
+    "version": "0.7.0+71",
+    "release_date": "2026-08-17",
+    "type": "Full-Bundle (Firmware + LittleFS)",
+    "file_extension": ".ota",
+    "download_url": "https://githubusercontent.com",
+    "changelog": "Pre-release version 0.7.0 (Build 71) for testing device webapp live-linking. Includes compressed webapp (GZ) and light device manual inside LittleFS partition."
+  }
+}
