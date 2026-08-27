@@ -11,7 +11,8 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 
 * 🤖 **[Firmware & OTA-Updates](./bin)** – Enthält die `version.json` für den automatischen Versionsabgleich über den Client-Browser sowie die offiziellen Update-Bundles.
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
-* 📜 **[Dokumentation & Compliance](./docs)** – Das vollständige Online-Handbuch, Reparaturanleitungen, die Material-Stückliste (BOM) sowie Nachweise zu CE, CRA und FIE-Konformität.
+* ⚖️ **[Regulatory Compliance & Impressum](./docs/compliance)** – Unsere rechtssichere Übersicht für FIE, CE und CRA sowie die gesetzliche Anbieterkennzeichnung mitsamt Spamschutz-Kontakt.
+* 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
 * 💬 **[Community & Support](../../discussions)** – Unser virtuelles Vereinsheim. Nutze den Tab "Discussions" für Fragen, Erfahrungsaustausch und Best Practices.
 * 🐛 **[Fehler melden](../../issues)** – Nutze den Tab "Issues" für strukturierte Bug-Reports zur Firmware, Webapp oder Hardware.
 
@@ -23,12 +24,12 @@ Dieses Projekt ist auf Code-Ebene Closed-Source. Es werden keine Quellcodes oder
 
 * **Hybrid-Updates über Client-Brücke:** Die Geräte arbeiten komplett offline und strahlen einen eigenen WLAN-Access-Point aus. Der Abgleich erfolgt über den Browser des Endgeräts (Smartphone/PC), welcher die Update-Datei von GitHub lädt und lokal per Webapp auf den Tester überträgt. Alternativ ist ein Update via microSD-Karte möglich.
 * **All-in-One Custom Bundle:** Updates werden als verschlüsseltes Kombi-Paket bereitgestellt, welches die Firmware, das LittleFS-Dateisystem (inkl. der komprimierten Webapp `webapp.gz`) und ein schlankes Geräte-Handbuch enthält.
-* **Automatischer Failsafe (Recovery):** Die Integrität der Webapp wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist beschädigt, lädt der ESP32 automatisch einen autarken Recovery-Server. Die Weboberfläche zur Rettung ist direkt über **`http://192.168.4`** erreichbar.
+* **Automatischer Failsafe (Recovery):** Die Integrität der Webapp wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist beschädigt, lädt der ESP32 automatisch einen autarken Recovery-Server. Die Weboberfläche zur Rettung ist direkt über **`http://192.168.4.1`** erreichbar.
 * **Hardware-Sicherheit:** Vor dem ersten offiziellen Release wird die ESP32-Hardwareverschlüsselung (Flash Encryption) aktiviert. Das Auslesen des Flash-Speichers über physische Pins ist dadurch zwecklos.
 
 ---
 
-## 📖 Dokumentation (Hybrid-Konzept)
+## 📖 Dokumentation (Hybrid-Concept)
 
 Um den begrenzten Flash-Speicher des ESP32 zu schonen, teilen wir die Dokumentation auf:
 1. **Offline-Handbuch (Lite):** Direkt im LittleFS des Geräts gespeichert. Es ist extrem speicheroptimiert, verzichtet auf große Bilder und beschreibt nur die physischen Tasten, LEDs und die Display-Menüs.
