@@ -5,7 +5,7 @@ Copyright (c) 2026 Michael Last. All rights reserved.
 This repository is a private, non-profit, and voluntary initiative to support the fencing community. All files, firmware binaries, and 3D design assets are provided "as is", without warranty of any kind, express or implied, including but not limited to the warranties of functionality, fitness for a particular purpose, or completeness. In no event shall the author be liable for any claim, damages, or other liability arising from the use of the firmware or hardware designs.
 
 2. SOFTWARE & FIRMWARE (Closed-Source / Binary-Only Distribution)
-The compiled firmware files, images, and custom update packages provided in the `/bin` directory are proprietary and remain under exclusive ownership.
+The compiled firmware files, images, and custom update packages provided in the `/bin` directory are proprietary and remain under exclusive ownership of Michael Last.
 - You are granted the right to download and use the binaries exclusively for operating the SVA-Fencing-Tester device.
 - Decompiling, reverse engineering, disassembling, or modifying the binary code is strictly prohibited.
 - Commercial distribution, resale, or sublicensing of the firmware binaries, whether standalone or bundled, is strictly prohibited.
