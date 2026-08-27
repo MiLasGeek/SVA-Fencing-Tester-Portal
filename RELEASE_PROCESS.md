@@ -1,6 +1,6 @@
 # 🚀 SVA-Fencing-Tester – Release Checklist
 
-Dieses Dokument dient als Leitfaden für die manuelle Release-Erstellung und das Deployment auf den öffentlichen `release`-Branch des Portals.
+Dieses Dokument dient als Leitfaden für die manuelle Release-Erstellung und das Deployment auf den öffentlichen `main`-Branch des Portals.
 
 ## 1. Vorbereitung & Code-Härtung (Privat)
 - [ ] **Compiler-Schalter prüfen:** Sicherstellen, dass alle Test- und Debug-Bibliotheken (wie z. B. der alte FTP-Server oder serielle Ausgaben) für die Produktion per `#ifdef` deaktiviert sind.
@@ -24,9 +24,9 @@ Da die Webapp-Abhängigkeiten (Vue, Vite-Plugins, Bootstrap etc.) stark verschac
 - [ ] Trage die neue Versionsnummer, den Build-Counter und das aktuelle Datum in die `bin/CHANGELOG.md` ein.
 
 ## 4. Manuelles Deployment (Public Portal)
-- [ ] Wechsel in deinem Portal-Repository auf den Branch **`release`**.
+- [ ] Wechsle in deinem Portal-Repository auf den Branch **`main`**.
 - [ ] Kopiere das neue `.ota`-Bundle in den Ordner `bin/stable/`. 
 - [ ] Lösche bei Bedarf uralte Builds, behalte aber die letzten *n* Versionen als schnelles Downgrade-Sicherheitsnetz im Ordner.
-- [ ] Aktualisiere die `bin/version.json` mit der neuen Versionsnummer, dem exakten Dateinamen und dem korrekten GitHub-Raw-Link, der auf den `release`-Branch zeigt.
-- [ ] Pushe die Änderungen auf den `release`-Branch.
+- [ ] Aktualisiere die `bin/version.json` mit der neuen Versionsnummer, dem exakten Dateinamen und dem korrekten GitHub-Raw-Link, der auf den `main`-Branch zeigt.
+- [ ] Pushe die Änderungen auf den **`main`**-Branch.
 - [ ] **Live-Test:** Verbinde ein Testgerät im Offline-WLAN, öffne die About-Page und prüfe, ob der Client-Browser den Versionsabgleich über die neue `version.json` fehlerfrei ausführt.
