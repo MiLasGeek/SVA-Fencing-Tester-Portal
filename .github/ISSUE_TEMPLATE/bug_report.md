@@ -1,7 +1,7 @@
 ---
 name: 'Bug Report / Fehler melden'
 description: Melde einen Fehler in der Firmware, der Webapp oder den Gehäuseteilen.
-title: '[Bug] Kurze Fehlerbeschreibung'
+title: '[Bug]: '
 labels: bug
 ---
 
@@ -11,25 +11,25 @@ Dieses Projekt wird rein ehrenamtlich in der Freizeit betreut. Fehlerberichte we
 ---
 
 ### 💻 Betroffene Komponente
-Bitte kreuze an, wo der Fehler auftritt:
-* [ ] **Firmware** (Fehlverhalten des Testers, Abstürze, Trefferanzeige ungenau)
-* [ ] **Webapp** (Darstellungsfehler im Browser, Verbindungsprobleme, UI-Hänger)
-* [ ] **Hardware / 3D-Druck** (Passungenauigkeiten bei Gehäuse- oder Verschleißteilen)
-* [ ] **OTA / Recovery** (Fehler beim Einspielen von Updates)
+*Bitte kreuze die zutreffende Komponente an (Ersetze `[ ]` durch `[x]`):*
+- [ ] **Firmware** (Fehlverhalten des Testers, Abstürze, Trefferanzeige ungenau)
+- [ ] **Webapp** (Darstellungsfehler im Browser, Verbindungsprobleme, UI-Hänger)
+- [ ] **Hardware / 3D-Druck** (Passungenauigkeiten bei Gehäuse- oder Verschleißteilen)
+- [ ] **OTA / Recovery** (Fehler beim Einspielen von Updates)
 
 ### 📊 Systeminformationen
-* **Installierte Firmware-Version:** (z. B. 0.7.0+71 aus der version.json)
-* **Verwendetes Endgerät für die Webapp:** (z. B. iPhone 15, Android-Tablet, Windows-Laptop)
-* **Verwendeter Browser:** (z. B. Safari, Chrome, Firefox)
+* **Installierte Firmware-Version:** *(z. B. v0.7.0)*
+* **Verwendetes Endgerät:** *(z. B. iPhone 15, Android-Tablet, Windows-Laptop)*
+* **Verwendeter Browser:** *(z. B. Safari, Chrome, Firefox)*
 
 ### 📝 Fehlerbeschreibung
-(Was genau passiert? Was sollte stattdessen passieren?)
+*Beschreibe kurz, was genau passiert und was das erwartete Verhalten gewesen wäre.*
 
 ### 🔄 Schritte zur Reproduktion
 1. Gerät einschalten...
 2. Mit dem WLAN verbinden...
 3. In der Webapp auf Menü X klicken...
-4. Fehler tritt auf bei...
+4. Der Fehler tritt auf bei...
 
 ### 📸 Screenshots / Anhänge (Optional)
-(Falls der Fehler in der Webapp oder beim 3D-Druck optisch sichtbar ist, ziehe Bilder oder Fotos einfach per Drag-and-Drop hier in das Textfeld.)
+*Falls der Fehler in der Webapp oder beim 3D-Druck optisch sichtbar ist, ziehe Bilder oder Fotos einfach per Drag-and-Drop hier in das Textfeld. Bitte achte darauf, dass auf den Bildern keine personenbezogenen Daten (wie Gesichter oder private Namen) zu sehen sind.*
