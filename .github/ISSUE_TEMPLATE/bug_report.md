@@ -1,6 +1,6 @@
 ---
 name: 'Bug Report / Fehler melden'
-description: Melde einen Fehler in der Firmware, der Webapp oder den Gehäuseteilen.
+about: Melde einen Fehler in der Firmware, der Webapp oder den Gehäuseteilen.
 title: '[Bug]: '
 labels: bug
 ---
