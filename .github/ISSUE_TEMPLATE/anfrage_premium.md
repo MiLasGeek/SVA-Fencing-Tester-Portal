@@ -1,6 +1,6 @@
 ---
 name: 'Anfrage: Hardware (Platinen, Geräte, Ersatzteile)'
-description: Für Vereine, Fechter und DIY-Bauer auf Non-Profit-Basis.
+about: Für Vereine, Fechter und DIY-Bauer auf Non-Profit-Basis.
 title: '[Anfrage]: Hardware – '
 labels: anfrage
 ---
