@@ -11,8 +11,10 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 
 * 🤖 **[Firmware & OTA-Updates](./bin)** – Enthält die `version.json` für den automatischen Versionsabgleich über den Client-Browser sowie die offiziellen Update-Bundles.
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
-* ⚖️ **[Regulatory Compliance & Impressum](./docs/compliance)** – Unsere rechtssichere Übersicht für FIE, CE und CRA, die gesetzliche Anbieterkennzeichnung sowie die vollständige [Open-Source-Lizenzliste (Third-Party)](./docs/compliance/THIRD_PARTY_LICENSES.md).
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
+* ⚖️ **[Rechtliches & Impressum](./IMPRINT.md)** – Gesetzliche Anbieterkennzeichnung nach § 5 DDG sowie Haftungsausschlüsse für Software und Hardware.
+* 🛡️ **[Datenschutzerklärung](./PRIVACY.md)** – Transparente Informationen zur DSGVO-konformen Datenverarbeitung innerhalb dieses Repositories.
+* 📜 **[Lizenzliste (Third-Party)](./docs/compliance/THIRD_PARTY_LICENSES.md)** – Übersicht über die verwendeten Open-Source-Bibliotheken und Drittlizenzen.
 * 💬 **[Community & Support](../../discussions)** – Unser virtuelles Vereinsheim. Nutze den Tab "Discussions" für Fragen, Erfahrungsaustausch und Best Practices.
 * 🐛 **[Fehler melden](../../issues)** – Nutze den Tab "Issues" für strukturierte Bug-Reports zur Firmware, Webapp oder Hardware.
 
@@ -24,12 +26,12 @@ Dieses Projekt ist auf Code-Ebene Closed-Source. Es werden keine Quellcodes oder
 
 * **Hybrid-Updates über Client-Brücke:** Die Geräte arbeiten komplett offline und strahlen einen eigenen WLAN-Access-Point aus. Der Abgleich erfolgt über den Browser des Endgeräts (Smartphone/PC), welcher die Update-Datei von GitHub lädt und lokal per Webapp auf den Tester überträgt. Alternativ ist ein Update via microSD-Karte möglich.
 * **All-in-One Custom Bundle:** Updates werden als verschlüsseltes Kombi-Paket bereitgestellt, welches die Firmware, das LittleFS-Dateisystem (inkl. der komprimierten Webapp `webapp.gz`) und ein schlankes Geräte-Handbuch enthält.
-* **Automatischer Failsafe (Recovery):** Die Integrität der Webapp wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist beschädigt, lädt der ESP32 automatisch einen autarken Recovery-Server. Die Weboberfläche zur Rettung ist direkt über **`http://192.168.4.1`** erreichbar.
+* **Automatischer Failsafe (Recovery):** Die Integrität der Webapp wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist sie beschädigt, lädt der ESP32 automatisch einen autarken Recovery-Server. Die Weboberfläche zur Rettung ist direkt über **`http://192.168.4.1`** erreichbar.
 * **Hardware-Sicherheit:** Vor dem ersten offiziellen Release wird die ESP32-Hardwareverschlüsselung (Flash Encryption) aktiviert. Das Auslesen des Flash-Speichers über physische Pins ist dadurch zwecklos.
 
 ---
 
-## 📖 Dokumentation (Hybrid-Concept)
+## 📖 Dokumentation (Hybrid-Konzept)
 
 Um den begrenzten Flash-Speicher des ESP32 zu schonen, teilen wir die Dokumentation auf:
 1. **Offline-Handbuch (Lite):** Direkt im LittleFS des Geräts gespeichert. Es ist extrem speicheroptimiert, verzichtet auf große Bilder und beschreibt nur die physischen Tasten, LEDs und die Display-Menüs.
@@ -41,7 +43,7 @@ Um den begrenzten Flash-Speicher des ESP32 zu schonen, teilen wir die Dokumentat
 
 Es gibt keinen kommerziellen Webshop. Alle Bereitstellungen erfolgen privat auf Non-Profit-Basis und direkt auf Anfrage über unsere integrierten GitHub-Formulare, sobald die Testphase beendet ist.
 
-* **DIY-Variante (Open Source):** Das Basis-Gehäuse sowie alle Verschleißteile (Tasterkappen, Gehäuseclips etc.) können über die Dateien im Hardware-Ordner für den Eigenbedarf frei gedruckt werden.
+* **DIY-Variante (Freier Nachdruck):** Das Basis-Gehäuse sowie alle Verschleißteile (Tasterkappen, Gehäuseclips etc.) können über die Designdateien im Hardware-Ordner für den Eigenbedarf frei gedruckt werden.
 * **Komplettgeräte & vorbestückte Platinen:** Für Vereine ohne eigenen 3D-Drucker oder Lötausrüstung fertigen wir optimierte Premium-Gehäuse, vorbestückte Custom-PCBs (inkl. Akku mit JST-Stecker und Powerbank-Platine) sowie Komplettsysteme auf Anfrage.
 
 👉 **[Hier eine Anfrage für Hardware oder Ersatzteile erstellen](../../issues/new?template=anfrage_premium.md)** *(In der Testphase inaktiv)*
@@ -50,12 +52,15 @@ Es gibt keinen kommerziellen Webshop. Alle Bereitstellungen erfolgen privat auf 
 
 ## 🧾 Steuerlicher Hinweis & Abrechnung
 
-* **Keine gewerbliche Rechnung:** Da es sich um eine rein private, ehrenamtliche Unterstützung von Fechter zu Fechter handelt, wird keine eigene Umsatzsteuer ausgewiesen und keine gewerbliche Rechnung ausgestellt.
-* **Brutto-Selbstkosten:** Alle elektronischen Bauteile werden ordnungsgemäß versteuert über offizielle Distributoren (mouser, Aisler) eingekauft. Die Weitergabe an Vereine erfolgt zu diesen tatsächlichen Brutto-Materialpreisen ohne jegliche Gewinnabsicht.
-* **Vereinsbuchhaltung:** Vereine erhalten einen privaten Kaufbeleg (Quittung über Aufwandsersatz/Materialkosten) für deren Unterlagen. Kopien der originalen Distributor-Rechnungen können zur Transparenz beigelegt werden. 
+* **Keine gewerbliche Rechnung:** Da es sich um eine rein private, ehrenamtliche Unterstützung von Fechter zu Fechter handelt, wird keine Umsatzsteuer ausgewiesen und keine gewerbliche Rechnung ausgestellt.
+* **Brutto-Selbstkosten:** Alle elektronischen Bauteile werden ordnungsgemäß versteuert über offizielle Distributoren (Mouser, Aisler) eingekauft. Die Weitergabe an Vereine erfolgt zu diesen tatsächlichen Brutto-Materialpreisen ohne jegliche Gewinnabsicht.
+* **Vereinsbuchhaltung:** Vereine erhalten einen privaten Kaufbeleg (Quittung über Aufwandsersatz/Materialkosten) für ihre Unterlagen. Kopien der originalen Distributor-Rechnungen können zur Transparenz beigelegt werden. 
 * **Fertigung nach Verfügbarkeit:** Da die Bestückung und Tests vollständig in der Freizeit stattfinden, erfolgt die Fertigung ausschließlich nach zeitlicher Verfügbarkeit. Bitte plant entsprechende Wartezeiten ein.
 
 ---
 
-## 📄 Lizenz
+## 📄 Lizenz & Rechtliches
+
 Die Firmware ist urheberrechtlich geschützt (Binary-only). Für die 3D-Druckdaten im Ordner `/hardware` gilt die **Creative Commons Namensnennung - Nicht-kommerziell - Weitergabe unter gleichen Bedingungen 4.0 International (CC BY-NC-SA 4.0)**. Eine gewerbliche Nutzung oder der kommerzielle Weiterverkauf der Gehäuseteile ist strikt untersagt. Siehe `LICENSE`-Datei für Details.
+
+Informationen zum Anbieter sowie zum Datenschutz findest du in unserem separaten [Impressum](./IMPRINT.md) und der [Datenschutzerklärung](./PRIVACY.md).
