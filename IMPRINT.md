@@ -5,9 +5,9 @@ Angaben gemäß § 5 Digitale-Dienste-Gesetz (DDG).
 Da es sich hierbei um ein ehrenamtliches Non-Profit-Projekt zur Unterstützung von Fechtvereinen handelt, werden die privaten Kontaktdaten des Entwicklers zum Schutz vor automatisiertem Spam und Text-Scraping als Grafik bereitgestellt.
 
 ### Diensteanbieter & Kontakt
-![Kontaktdaten für das Impressum](docs/assets/impressum.png)
+![Kontaktdaten für das Impressum](docs/assets/Impressum.png)
 
-*(Hinweis: Sollte das Bild oben nicht laden, findest du die Kontaktdaten direkt in der Datei `docs/assets/impressum.png` im Repository).*
+*(Hinweis: Sollte das Bild oben nicht laden, findest du die Kontaktdaten direkt in der Datei `docs/assets/Impressum.png` im Repository).*
 
 ---
 
