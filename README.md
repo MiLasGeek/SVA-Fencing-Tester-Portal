@@ -12,6 +12,9 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 * 🤖 **[Firmware & OTA-Updates](./bin)** – Enthält die `version.json` für den automatischen Versionsabgleich über den Client-Browser sowie die offiziellen Update-Bundles.
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
+* ⚙️ **[Technische Spezifikationen](./FEATURES.md)** – Das vollständige, detaillierte Leistungsspektrum und alle Geräteeigenschaften im Überblick.
+* ⏳ **[Entwicklungsgeschichte & Prioritätsnachweis](./DEVELOPMENT_HISTORY.md)** – Die lückenlose Chronologie der Hardware-Revisionen (Rev 1.0 bis Rev 4.0).
+* 💻 **[Software-Architektur & Algorithmen](./SOFTWARE_ARCHITECTURE.md)** – Dokumentation der deterministischen Echtzeit-Schnittstellen und Lock-Free-Puffer.
 * ⚖️ **[Rechtliches & Impressum](./IMPRINT.md)** – Gesetzliche Anbieterkennzeichnung nach § 5 DDG sowie Haftungsausschlüsse für Software und Hardware.
 * 🛡️ **[Datenschutzerklärung](./PRIVACY.md)** – Transparente Informationen zur DSGVO-konformen Datenverarbeitung innerhalb dieses Repositories.
 * 📜 **[Lizenzliste (Third-Party)](./docs/compliance/THIRD_PARTY_LICENSES.md)** – Übersicht über die verwendeten Open-Source-Bibliotheken und Drittlizenzen.
@@ -20,14 +23,30 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 
 ---
 
+## 🚀 Highlights & Kernfeatures (Sperrveröffentlichung)
+
+Der SVA-Fencing-Tester (Revision 4.0) bricht mit traditionellen Messgeräte-Konzepten und bietet Profiliga-Diagnose im ultrakompakten Eurokarten-Format ($100 \times 60$ mm):
+
+* **860-Hz-Echtzeit-Abtastung:** Lückenlose Erkennung transienter Wackelkontakte im Millisekundenbereich zur präzisen Materialkontrolle.
+* **Prädiktiver Matrix-Scan:** Graphentheoretische Transitivitäts-Reduktion überspringt redundante Kreuzprüfungen und schont ADC-Einschwingzeiten.
+* **Asymmetrisches Fading:** Visueller Hold-Effekt „streckt“ flüchtige Fehler für das menschliche Auge (Sofort-Rot bei Defekt, weiches, einstellbares Fade-out).
+* **Topologie-identische UI:** 1:1 grafische Buchsen-Projektion auf dem Display mit dynamischen Spline-Bögen zur sofortigen Entlarvung von Adernvertauschungen.
+* **Echtes Zero-Power-Standby:** Automatische PMIC-Abschaltung bei Inaktivität. Knopflose Wiederzuschaltung rein über transienten Kondensator-Einschaltstrom.
+* **Masse-Anker-Stabilisierung:** Das mechanische Plangepresste Akku-Platinen-Sandwich nutzt die Batteriezelle als thermische Kapazität zur ADC-Rauschminimierung.
+* **Bulletproof-Recovery-Kaskade:** Ein im Core integrierter Notfall-HTML-Server und ein lokaler microSD-OTA-Pfad sichern das System gegen Datenkorruption im Feld ab.
+
+👉 **Das vollständige, detaillierte Leistungsspektrum findest du in der [FEATURES.md](./FEATURES.md).**
+
+---
+
 ## 🔒 Technisches Konzept & Sicherheit (Closed-Source)
 
-Dieses Projekt ist auf Code-Ebene Closed-Source. Es werden keine Quellcodes oder elektronischen Schaltpläne (Gerber-Dateien) veröffentlicht. Zum Schutz vor Manipulationen und unbefugtem Auslesen (Reverse Engineering) greift folgende Architektur:
+Dieses Projekt ist auf Code-Ebene Closed-Source. Es werden keine Quellcodes oder editierbaren Elektronik-Layouts veröffentlicht. Zum Schutz vor Manipulationen, zum Erhalt der Turniertransparenz bei Waffenkontrollen und zur Abwehr von Reverse Engineering greift folgende Architektur:
 
-* **Hybrid-Updates über Client-Brücke:** Die Geräte arbeiten komplett offline und strahlen einen eigenen WLAN-Access-Point aus. Der Abgleich erfolgt über den Browser des Endgeräts (Smartphone/PC), welcher die Update-Datei von GitHub lädt und lokal per Webapp auf den Tester überträgt. Alternativ ist ein Update via microSD-Karte möglich.
+* **Hybrid-Updates über Client-Brücke:** Die Geräte arbeiten im Messbetrieb komplett offline und strahlen einen eigenen WLAN-Access-Point aus. Der Abgleich erfolgt über den Browser des Endgeräts (Smartphone/PC), welcher die Update-Datei von GitHub lädt und lokal per Webapp auf den Tester überträgt. Alternativ ist ein Offline-Update via microSD-Karte möglich.
 * **All-in-One Custom Bundle:** Updates werden als verschlüsseltes Kombi-Paket bereitgestellt, welches die Firmware, das LittleFS-Dateisystem (inkl. der komprimierten Webapp `webapp.gz`) und ein schlankes Geräte-Handbuch enthält.
-* **Automatischer Failsafe (Recovery):** Die Integrität der Webapp wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist sie beschädigt, lädt der ESP32 automatisch einen autarken Recovery-Server. Die Weboberfläche zur Rettung ist direkt über **`http://192.168.4.1`** erreichbar.
-* **Hardware-Sicherheit:** Vor dem ersten offiziellen Release wird die ESP32-Hardwareverschlüsselung (Flash Encryption) aktiviert. Das Auslesen des Flash-Speichers über physische Pins ist dadurch zwecklos.
+* **Automatischer Failsafe (Recovery Mode):** Die Integrität des Filesystems wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist sie beschädigt, lädt der ESP32 automatisch einen autarken, minimalistischen Notfall-Webserver. Die Weboberfläche zur Rettung ist im Fehlerfall direkt über **`http://192.168.4.1`** erreichbar.
+* **Hardware-Sicherheit:** Vor dem ersten offiziellen Release wird die hardwareseitige AES-Verschlüsselung des ESP32-S3 (Flash Encryption) dauerhaft aktiviert. Das physische Auslesen des Flash-Speichers über die GPIO-Pins ist dadurch kryptografisch wirkungslos.
 
 ---
 
@@ -41,10 +60,10 @@ Um den begrenzten Flash-Speicher des ESP32 zu schonen, teilen wir die Dokumentat
 
 ## 🛠️ Bezug von Hardware & Ersatzteilen (Non-Profit)
 
-Es gibt keinen kommerziellen Webshop. Alle Bereitstellungen erfolgen privat auf Non-Profit-Basis und direkt auf Anfrage über unsere integrierten GitHub-Formulare, sobald die Testphase beendet ist.
+Es gibt keinen kommerziellen Weboss-Shop. Alle Bereitstellungen erfolgen privat auf Non-Profit-Basis und direkt auf Anfrage über unsere integrierten GitHub-Formulare, sobald die Testphase beendet ist.
 
 * **DIY-Variante (Freier Nachdruck):** Das Basis-Gehäuse sowie alle Verschleißteile (Tasterkappen, Gehäuseclips etc.) können über die Designdateien im Hardware-Ordner für den Eigenbedarf frei gedruckt werden.
-* **Komplettgeräte & vorbestückte Platinen:** Für Vereine ohne eigenen 3D-Drucker oder Lötausrüstung fertigen wir optimierte Premium-Gehäuse, vorbestückte Custom-PCBs (inkl. Akku mit JST-Stecker und Powerbank-Platine) sowie Komplettsysteme auf Anfrage.
+* **Komplettgeräte & vorbestückte Platinen:** Für Vereine ohne eigenen 3D-Drucker oder Lötausrüstung fertigen wir optimierte Premium-Gehäuse, im einseitigen Reflow-Verfahren vorbestückte Custom-PCBs (inkl. Akku mit JST-Stecker, separater Powerbank-Platine und passgenauer Stencil-Schablone) sowie Komplettsysteme auf Anfrage im On-Demand-Sammelverfahren.
 
 👉 **[Hier eine Anfrage für Hardware oder Ersatzteile erstellen](../../issues/new?template=anfrage_premium.md)** *(In der Testphase inaktiv)*
 
@@ -53,9 +72,9 @@ Es gibt keinen kommerziellen Webshop. Alle Bereitstellungen erfolgen privat auf 
 ## 🧾 Steuerlicher Hinweis & Abrechnung
 
 * **Keine gewerbliche Rechnung:** Da es sich um eine rein private, ehrenamtliche Unterstützung von Fechter zu Fechter handelt, wird keine Umsatzsteuer ausgewiesen und keine gewerbliche Rechnung ausgestellt.
-* **Brutto-Selbstkosten:** Alle elektronischen Bauteile werden ordnungsgemäß versteuert über offizielle Distributoren (Mouser, Aisler) eingekauft. Die Weitergabe an Vereine erfolgt zu diesen tatsächlichen Brutto-Materialpreisen ohne jegliche Gewinnabsicht.
-* **Vereinsbuchhaltung:** Vereine erhalten einen privaten Kaufbeleg (Quittung über Aufwandsersatz/Materialkosten) für ihre Unterlagen. Kopien der originalen Distributor-Rechnungen können zur Transparenz beigelegt werden. 
-* **Fertigung nach Verfügbarkeit:** Da die Bestückung und Tests vollständig in der Freizeit stattfinden, erfolgt die Fertigung ausschließlich nach zeitlicher Verfügbarkeit. Bitte plant entsprechende Wartezeiten ein.
+* **Brutto-Selbstkosten:** Alle elektronischen Bauteile werden ordnungsgemäß versteuert über offizielle Distributoren (Mouser, Aisler) eingekauft. Die Weitergabe an Vereine erfolgt zu diesen tatsächlichen Brutto-Materialpreisen ohne jegliche Gewinnabsicht, meist gesammelt in On-Demand-Chargen für je 10 Systeme zur Versandkosten-Optimierung.
+* **Vereinsbuchhaltung:** Vereine erhalten einen privaten Kaufbeleg (Quittung über Aufwandsersatz/Materialkosten) für ihre Unterlagen. Kopien der originalen Distributor-Rechnungen können zur absoluten Transparenz beigelegt werden. 
+* **Fertigung nach Verfügbarkeit:** Da die Bestückung, die Factory-$R_0$-Kalibrierung und die Endtests vollständig in der Freizeit stattfinden, erfolgt die Fertigung ausschließlich nach zeitlicher Verfügbarkeit. Bitte plant entsprechende Wartezeiten ein.
 
 ---
 
