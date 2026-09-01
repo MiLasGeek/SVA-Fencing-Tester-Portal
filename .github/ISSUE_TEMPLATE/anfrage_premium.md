@@ -20,7 +20,7 @@ Mit dem Absenden dieser Anfrage nimmst du Folgendes zur Kenntnis:
 * **Verein / Landesverband:** 
 * **Gewünschte Art der Kontaktaufnahme:** 
   - [ ] Bitte kontaktiert mich hier direkt über dieses GitHub-Issue.
-  - [ ] Ich sende meine privaten Kontaktdaten (Name, Lieferadresse, E-Mail) parallel per E-Mail an die Adresse aus dem [Impressum](IMPRINT.md) (Betreff: Hardware-Anfrage + dein GitHub-Username).
+  - [ ] Ich sende meine privaten Kontaktdaten (Name, Lieferadresse, E-Mail) parallel per E-Mail an die Adresse aus dem [Impressum](../../IMPRINT.md) (Betreff: Hardware-Anfrage + dein GitHub-Username).
 
 ---
 
