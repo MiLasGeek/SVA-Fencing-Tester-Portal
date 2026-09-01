@@ -12,15 +12,32 @@ Der Tester benötigt selbst keinen Internetzugang. Er stellt für die lokale Ger
 
 1. Stelle sicher, dass der Akku ausreichend geladen ist und unterbrich die Stromversorgung während des Updates nicht.
 2. Verbinde Smartphone oder PC mit dem WLAN des Testers und öffne die lokale Geräte-Webapp.
-3. Öffne dort den Update-/Info-Bereich. Die Webapp prüft anhand von `version.json`, ob eine neuere Version verfügbar ist.
-4. Öffne den angezeigten Portal-Link im Browser des Clients und lade das passende vollständige `.ota`-Bundle herunter.
-5. Kehre zur Geräte-Webapp zurück, wähle die lokal gespeicherte `.ota`-Datei aus und starte die Übertragung auf den Tester.
+3. Öffne dort den Update-Bereich und wähle **Neueste Version laden**. Die Webapp lädt das vollständige Bundle über die Internetverbindung des Clients, verifiziert dessen SHA-256-Prüfsumme und bietet es anschließend zur lokalen Übertragung an.
+4. Prüfe Version und Hinweise und starte die Übertragung auf den Tester. Das Gerät selbst benötigt dabei keinen Internetzugang.
+5. Alternativ kann eine bereits gespeicherte `.ota`-Datei über die Dateiauswahl hochgeladen werden. Das ist auch der Weg für ein gezieltes Downgrade.
 6. Warte, bis die Webapp den erfolgreichen Abschluss meldet. Das Gerät startet danach gegebenenfalls neu.
 7. Prüfe nach dem Neustart im Info-Bereich die installierte Version.
 
 ## Downgrade
 
 Ältere, kompatible Bundles bleiben in [`stable/`](./stable/) verfügbar. Für ein Downgrade wird derselbe Ablauf verwendet. Installiere nur vollständige, ausdrücklich freigegebene OTA-Bundles.
+
+## `version.json` für die direkte Aktualisierung
+
+Die Geräte-Webapp liest die aktuelle Freigabe aus `version.json`. Damit der Button **Neueste Version laden** aktiv genutzt werden kann, benötigt `latest_release` zusätzlich zu den beschreibenden Feldern diese Werte:
+
+```json
+{
+  "latest_release": {
+    "version": "1.2.3+45",
+    "filename": "SVA-Fencing-Tester_1.2.3+45.ota",
+    "download_url": "https://raw.githubusercontent.com/MiLasGeek/SVA-Fencing-Tester-Portal/main/bin/stable/SVA-Fencing-Tester_1.2.3%2B45.ota",
+    "sha256": "64-stellige-kleingeschriebene-sha256-pruefsumme"
+  }
+}
+```
+
+Die Datei wird erst nach vollständigem Download und erfolgreicher Prüfsummenprüfung als Update-Datei angeboten. Solange noch kein freigegebenes Bundle existiert, bleiben `filename` und `sha256` bewusst weg; die Webapp bietet dann keine Direktinstallation an.
 
 ## SD-Karten-Recovery
 
