@@ -1,6 +1,6 @@
 # 🏷️ Firmware Naming & Versioning Convention
 
-To ensure full traceability across our automated pre- and post-build systems, all official binary bundles deployed to the `release` branch follow a strict naming matrix.
+To ensure full traceability across our automated pre- and post-build systems, all official binary bundles deployed to the `main` branch follow a strict naming matrix.
 
 ## 📐 Filename Pattern
 `SVA-Fencing-Tester.release_[MAJOR].[MINOR].[PATCH]+[BUILD]_[YYYY-MM-DD]_[HH]_[MM].ota`
@@ -25,7 +25,7 @@ To ensure full traceability across our automated pre- and post-build systems, al
 * **Time of Compilation:** 17:31 (5:31 PM)
 
 ## 🤖 Webapp & Device Parsing Logic
-The internal updater firmware and the client-side browser bridge use the `+` delimiter to split the active core version string from the build metadata. When the device fetches the `version.json` from the `release` branch, it evaluates:
+The internal updater firmware and the client-side browser bridge use the `+` delimiter to split the active core version string from the build metadata. When the client-side browser bridge fetches the `version.json` from the `main` branch, it evaluates:
 1. Is the `[MAJOR].[MINOR].[PATCH]` string higher than the flashed version?
 2. If versions match, is the `[BUILD]` number higher than the current device state?
 
