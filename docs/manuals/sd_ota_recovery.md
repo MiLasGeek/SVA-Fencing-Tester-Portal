@@ -6,16 +6,19 @@ Falls kein WLAN verfügbar ist oder die Weboberfläche des Testers nicht mehr ri
 
 ## 💾 1. SD-Karte vorbereiten
 
-Der Tester besitzt einen Standard-SD-Kartenschnittstelle. Sie können auch eine microSD-Karte mit einem passenden SD-Adapter nutzen.
+Der Tester besitzt einen Standard-SD-Kartensteckplatz. Sie können auch eine microSD-Karte mit einem rein passiven microSD-auf-SD-Adapter nutzen.
 
 **Voraussetzungen für die Karte:**
-- **Größe:** Empfohlen werden Karten mit 4 bis 32 GB Speicherplatz.
-- **Formatierung:** Die Karte muss im Format **FAT** oder **FAT32** formatiert sein. (Sehr große Karten ab 64 GB sind oft als 'exFAT' vorformatiert und müssen am PC zwingend auf FAT32 umgestellt werden).
+- **Größe:** Empfohlen werden SD-/SDHC-Karten mit 4 bis 32 GB Speicherplatz.
+- **Formatierung:** Die Karte muss im Format **FAT** oder **FAT32** formatiert sein. SDXC-Karten ab 64 GB sind meist mit `exFAT` formatiert und müssen vor der Nutzung auf FAT32 formatiert werden.
 
 **Schritte am PC:**
 1. Laden Sie das aktuelle Update-Paket (die Datei mit der Endung `.ota`) aus dem `/bin`-Ordner unseres Portals herunter.
 2. Kopieren Sie die Datei direkt auf die SD-Karte (nicht in einen Unterordner!).
-3. Ändern Sie **nicht** den Namen der Datei. Der Tester ignoriert Dateien, die nicht exakt dem offiziellen Namensschema entsprechen.
+3. Ändern Sie **nicht** den Namen der Datei. Der Tester ignoriert Dateien mit ungültigem Namen, Header oder Größe.
+4. Werfen Sie die Karte am PC sicher aus und stecken Sie sie vor dem Einschalten in den Tester.
+
+> Liegen mehrere gültige OTA-Bundles im Stammverzeichnis, verwendet der Tester automatisch die höchste gefundene Version.
 
 ---
 
@@ -36,15 +39,19 @@ Der Tester erkennt die Update-Datei und zeigt Ihnen für **10 Sekunden** einen D
 
 ⚠️ **WICHTIG:** Schalten Sie den Tester während des Update-Vorgangs niemals aus und entnehmen Sie die SD-Karte nicht, bis der Vorgang vollständig abgeschlossen ist!
 
+Nach einem erfolgreichen Update startet das Gerät automatisch neu. Prüfen Sie anschließend im Info-Bereich die installierte Version.
+
 ---
 
 ## ⚡ 3. Problembehebung & Automatisches Update (Force Update)
 
 ### Das Gerät bietet das Update nicht mehr an?
-Wenn Sie ein Update dreimal hintereinander ignorieren oder abbrechen (durch Tippen auf „Start device“), merkt sich der Tester dies auf der SD-Karte. Er wird Ihnen dieses spezifische Update danach nicht mehr automatisch vorschlagen, um Sie im Vereinsalltag nicht zu stören.
+Wenn Sie dasselbe Downgrade dreimal hintereinander durch Tippen auf „Start device“ oder durch Ablauf der 10 Sekunden überspringen, merkt sich der Tester dies auf der SD-Karte. Er wird dieses spezifische Bundle bei einer funktionsfähigen Webapp danach nicht mehr automatisch vorschlagen, damit der Vereinsalltag nicht durch wiederholte Hinweise gestört wird. Neuere Updates und Wiederherstellungen bleiben davon unberührt.
 
 ### Ein Update erzwingen („Force Update“):
-Falls ein Update blockiert blockiert ist oder Sie den Bestätigungsdialog komplett überspringen möchten:
+Falls ein zulässiges Bundle erneut angewendet werden soll oder Sie den Bestätigungsdialog bewusst überspringen möchten:
 1. Erstellen Sie am PC eine leere Textdatei auf der SD-Karte und nennen Sie diese exakt: `SVA_OTA_FORCE.txt`.
 2. Stecken Sie die Karte in den ausgeschalteten Tester und starten Sie ihn.
-3. Das Gerät führt das Update nun **sofort und ohne jegliche Nachfrage** beim Starten aus. Die Datei wird dabei vom Tester automatisch gelöscht, um Endlos-Schleifen zu verhindern.
+3. Das Gerät führt das Update nun **sofort und ohne Nachfrage** beim Starten aus. Die Datei wird vor dem Updateversuch automatisch gelöscht. Für einen weiteren Force-Update-Versuch muss sie deshalb erneut angelegt werden.
+
+Nutzen Sie `SVA_OTA_FORCE.txt` nur, wenn Sie genau wissen, welches Bundle sich auf der Karte befindet.

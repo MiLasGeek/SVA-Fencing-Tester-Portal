@@ -20,7 +20,7 @@ Der Tester benötigt selbst keinen Internetzugang. Er stellt für die lokale Ger
 
 ## Downgrade
 
-Ältere, kompatible Bundles bleiben in [`stable/`](./stable/) verfügbar. Für ein Downgrade wird derselbe Ablauf verwendet. Installiere nur vollständige und für die jeweilige Hardware-Revision freigegebene OTA-Bundles.
+Ältere, kompatible Bundles bleiben in [`stable/`](./stable/) verfügbar. Für ein Downgrade wird derselbe Ablauf verwendet. Installiere nur vollständige, ausdrücklich freigegebene OTA-Bundles.
 
 ## SD-Karten-Recovery
 
