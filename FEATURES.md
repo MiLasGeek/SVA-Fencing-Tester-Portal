@@ -1,6 +1,6 @@
 # ⚡ Feature-Übersicht & Leistungsspektrum (Features & Specifications)
 
-Der SVA-Fencing-Tester (Revision 4.0) ist ein ultrakompaktes, open-source Prüf- und Diagnosegerät für den Fechtsport. Es kombiniert multimodale Echtzeit-Messtechnik mit intuitiver visueller Analyse und industrieller Ausfallsicherheit.
+Der SVA-Fencing-Tester (Revision 4.0) ist ein ultrakompaktes, proprietäres Prüf- und Diagnosegerät für den Fechtsport. Die Firmware wird als Closed-Source-Binary bereitgestellt. Es kombiniert multimodale Echtzeit-Messtechnik mit intuitiver visueller Analyse und industrieller Ausfallsicherheit.
 
 ---
 
