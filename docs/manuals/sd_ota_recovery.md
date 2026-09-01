@@ -48,6 +48,12 @@ Nach einem erfolgreichen Update startet das Gerät automatisch neu. Prüfen Sie 
 ### Das Gerät bietet das Update nicht mehr an?
 Wenn Sie dasselbe Downgrade dreimal hintereinander durch Tippen auf „Start device“ oder durch Ablauf der 10 Sekunden überspringen, merkt sich der Tester dies auf der SD-Karte. Er wird dieses spezifische Bundle bei einer funktionsfähigen Webapp danach nicht mehr automatisch vorschlagen, damit der Vereinsalltag nicht durch wiederholte Hinweise gestört wird. Neuere Updates und Wiederherstellungen bleiben davon unberührt.
 
+### Ein übersprungenes Downgrade wieder anbieten
+
+Soll derselbe Downgrade wieder angeboten werden, schalten Sie den Tester aus, stecken die SD-Karte in einen PC und löschen im Stammverzeichnis ausschließlich die Datei `SVA_OTA_DISMISSED.txt`. Danach wird das Bundle beim nächsten Start wieder geprüft und angeboten.
+
+> Diese Datei hebt nur die Dreifach-Sperre für übersprungene Downgrades auf. Sie startet kein Update und ersetzt nicht die Force-Datei. Ein bereits erfolgreich installiertes Bundle derselben Version kann weiterhin als bereits angewendet erkannt werden.
+
 ### Ein Update erzwingen („Force Update“):
 Falls ein zulässiges Bundle erneut angewendet werden soll oder Sie den Bestätigungsdialog bewusst überspringen möchten:
 1. Erstellen Sie am PC eine leere Textdatei auf der SD-Karte und nennen Sie diese exakt: `SVA_OTA_FORCE.txt`.
