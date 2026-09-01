@@ -643,16 +643,7 @@ Verfügbare Hauptmodi:
 - Die Hauptseiten sind Start, Kabeltest, Säbel-Test, Florett-Test, Degen-Test und Westentest.
 - Die untere Schaltflächenleiste dient auf den Hauptseiten als Direktwahl zur entsprechenden Seite.
 - In Einstellseiten dient die untere Leiste zum Wechsel zwischen den Einstellgruppen und zur Rückkehr.
-| Globale Parameter |  | WLAN Parameter |  | Kabeltest Parameter |  | Waffentest Parameter | Waffentest Parameter | Waffentest Parameter | Waffentest Parameter | Waffentest Parameter |  |  | Westentest Parameter |
-| --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|  |  | Informationen |  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-|  |  | Über |  |  |  |  |  |  |  |  |  |  |  |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| Start | Start | Start |  | Kabeltest |  | Säbeltest |  | Floretttest |  | Degentest |  | Westentest | Westentest |
-|  |  |  |  |  |  |  |  |  |  |  |  |  |  |
-| Uhrzeit Einstellungen | Uhrzeit Einstellungen | Uhrzeit Einstellungen |  |  |  |  |  |  |  |  |  |  |  |
+![Navigationsübersicht der Geräte-UI](./assets/manual_de/navigation-overview.png)
 
 #### 11.3.2 Hinweis zur Wisch-Logik
 
