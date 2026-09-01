@@ -622,9 +622,15 @@ Wechsel zur Infoseite (Button, Wischen nach unten auf der rechten Bildschirmhäl
 Wechsel zum WLAN (Touch auf WLAN-Symbole in der Zeile am oberen Bildschirmrand)
 
 - schneller Wechsel zur Zeiteinstellung (Wischen nach oben) oder langes Antippen der Uhrzeit
-![Abbildung](./assets/manual_de/manual-de-05.png)
 
-![Abbildung](./assets/manual_de/manual-de-01.png)
+<p align="center">
+  <img src="./assets/manual_de/manual-de-05.png" alt="Abbildung" />
+</p>
+
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-01.png" alt="Abbildung" />
+</p>
 
 ### 11.2 Testmodi
 
@@ -643,7 +649,9 @@ Verfügbare Hauptmodi:
 - Die Hauptseiten sind Start, Kabeltest, Säbel-Test, Florett-Test, Degen-Test und Westentest.
 - Die untere Schaltflächenleiste dient auf den Hauptseiten als Direktwahl zur entsprechenden Seite.
 - In Einstellseiten dient die untere Leiste zum Wechsel zwischen den Einstellgruppen und zur Rückkehr.
-![Navigationsübersicht der Geräte-UI](./assets/manual_de/navigation-overview.png)
+<p align="center">
+  <img src="./assets/manual_de/navigation-overview.png" alt="Navigationsübersicht der Geräte-UI" />
+</p>
 
 #### 11.3.2 Hinweis zur Wisch-Logik
 
@@ -807,7 +815,10 @@ Hinweise:
 - Verbindungspfad und Isolationspfad unterscheiden.
 - Grenzwerte und Warnbereiche gemäß Parametrierung beachten.
 - Zusätzlich steht ein erweiterter Drahttest für Einzelpaar-Messungen zur Verfügung.
-![Abbildung](./assets/manual_de/manual-de-16.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-16.png" alt="Abbildung" />
+</p>
 
 #### 12.6.6 Bedienhinweise zum erweiterten Drahttest
 
@@ -815,9 +826,15 @@ Hinweise:
 - Im erweiterten Modus werden Kanäle einzeln ausgewählt.
 - Bei einem gültigen Paar wird der Widerstand direkt für dieses Paar dargestellt.
 - Ein erneutes Verlassen des erweiterten Modus erfolgt über die Rückfläche oder durch Rückgeste.
-![Abbildung](./assets/manual_de/manual-de-14.png)
 
-![Abbildung](./assets/manual_de/manual-de-11.png)
+<p align="center">
+  <img src="./assets/manual_de/manual-de-14.png" alt="Abbildung" />
+</p>
+
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-11.png" alt="Abbildung" />
+</p>
 
 #### 12.6.7 Gezielte Fehlersuche mit dem erweiterten Modus
 
@@ -992,11 +1009,17 @@ Empfohlener Prüfablauf:
 
 13. Bei Warnbereich oder „Schlecht“ Anschluss wiederholen und danach den Prüfling bewerten.
 
-![Abbildung](./assets/manual_de/manual-de-06.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-06.png" alt="Abbildung" />
+</p>
 
 ### 12.4 Säbel Test
 
-![Abbildung](./assets/manual_de/manual-de-02.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-02.png" alt="Abbildung" />
+</p>
 
 #### 12.4.1 Zweck und Besonderheiten
 
@@ -1050,7 +1073,10 @@ Empfohlener Prüfablauf:
 
 ### 12.5 Florett Test
 
-![Abbildung](./assets/manual_de/manual-de-17.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-17.png" alt="Abbildung" />
+</p>
 
 #### 12.5. 1 Zweck und Besonderheiten
 
@@ -1126,11 +1152,17 @@ Prüfablauf im erweiterten Modus
 
 5. Nach der Detailprüfung wieder in den regulären Modus zurückkehren und die Gesamtfunktion bewerten.
 
-![Abbildung](./assets/manual_de/manual-de-12.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-12.png" alt="Abbildung" />
+</p>
 
 ### 12.6 Degen Test
 
-![Abbildung](./assets/manual_de/manual-de-08.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-08.png" alt="Abbildung" />
+</p>
 
 #### 12.6.1 Zweck und Besonderheiten
 
@@ -1178,7 +1210,10 @@ Es wird mit erhöhter Abtastrate gearbeitet, bei einen Signalwechsel Gut zu Schl
 
 Eine Berührung des Chart Bereiches setzt die gestoppte Messung wieder fort.
 
-![Abbildung](./assets/manual_de/manual-de-07.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-07.png" alt="Abbildung" />
+</p>
 
 #### 12.6.9 Prüfablauf
 
@@ -1218,7 +1253,10 @@ In den Parametern werden Mess- und Geräteeinstellungen festgelegt.
 - Weapon-Test-Parameter
 - Vest-Test-Parameter
 - Netzwerk- und Sicherheitsparameter
-![Abbildung](./assets/manual_de/manual-de-03.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-03.png" alt="Abbildung" />
+</p>
 
 ### 13.2 Geräteeinstellungen
 
@@ -1249,7 +1287,10 @@ Beschreibung:
 - Messmodus bestimmt, ob eher schnell oder eher besonders ruhig und genau bewertet wird.
 ### 13.4 Kabel-Test-Parameter
 
-![Abbildung](./assets/manual_de/manual-de-15.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-15.png" alt="Abbildung" />
+</p>
 
 #### 13.4.1 Beschreibung
 
@@ -1267,7 +1308,10 @@ Beschreibung:
 - Graph Limit bestimmt, bis zu welchem Maximalwert Balken und Verlauf skaliert werden.
 ### 13.5 Waffen-Test-Parameter
 
-![Abbildung](./assets/manual_de/manual-de-09.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-09.png" alt="Abbildung" />
+</p>
 
 #### 13.5.1 Beschreibung
 
@@ -1285,7 +1329,10 @@ Beschreibung:
 - Triggerpos. legt fest, an welcher Stelle die Schaltschwelle in der Trigger-Anzeige liegt.
 ### 13.6 Vest-Test-Parameter
 
-![Abbildung](./assets/manual_de/manual-de-04.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-04.png" alt="Abbildung" />
+</p>
 
 #### 13.6.1 Beschreibung
 
@@ -1305,7 +1352,10 @@ Beschreibung:
 - Helligkeit bestimmt die Helligkeit der externen Farbanzeige.
 ### 13.7 Netzwerk- und Sicherheitsparameter
 
-![Abbildung](./assets/manual_de/manual-de-18.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-18.png" alt="Abbildung" />
+</p>
 
 #### 13.7.1 Beschreibung
 
@@ -1454,7 +1504,10 @@ Die Browser-Oberfläche dient zusätzlich zur Anzeige, Einstellung und Wartung.
 
 - Die hauptsächliche Bedienung erfolgt weiterhin über das Gerät.
 - Die Browser Oberfläche ergänzt die Bedienung, ersetzt sie aber nicht in allen Situationen.
-![Abbildung](./assets/manual_de/manual-de-13.png)
+
+<p align="center">
+  <img src="./assets/manual_de/manual-de-13.png" alt="Abbildung" />
+</p>
 
 ## 17. Firmware-Update
 
