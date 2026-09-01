@@ -1,3 +1,8 @@
-# Einfaches STEP-Referenzmodell
+# STEP-Modelle für Gehäuse-CAD
 
-`sva-fencing-tester-pcb-reference.step` ist ein neutrales, unbestücktes Volumenmodell der PCB-Außenkontur (100 × 60 × 1,6 mm). Es dient als Platzhalter zur mechanischen Visualisierung und ist ausdrücklich keine Fertigungsunterlage.
+| Hardware-Revision | STEP-Modell |
+| --- | --- |
+| Rev 2 | [sva-fencing-tester-rev2.step](./sva-fencing-tester-rev2.step) |
+| Rev 4 | [sva-fencing-tester-rev4.step](./sva-fencing-tester-rev4.step) |
+
+Die Modelle stammen aus KiCad-STEP-Exports der bestückten PCB-Baugruppen und sind als räumliche Grundlage für Gehäuse-CAD vorgesehen. Sie sind keine Schaltplan-, PCB-Quell- oder Fertigungsdaten.
