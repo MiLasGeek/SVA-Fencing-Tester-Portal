@@ -1,0 +1,7 @@
+blank_issues_enabled: false
+templates:
+  - name: Premium-Anfrage
+    about: Nutzen Sie diese Vorlage, um ein offizielles Angebot einzuholen.
+    filename: anfrage_premium.md
+    title: "[Angebot] "
+    labels: ["angebot", "premium"]
