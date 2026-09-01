@@ -17,6 +17,7 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 * 💻 **[Software-Architektur & Algorithmen](./SOFTWARE_ARCHITECTURE.md)** – Dokumentation der deterministischen Echtzeit-Schnittstellen und Lock-Free-Puffer.
 * ⚖️ **[Rechtliches & Impressum](./IMPRINT.md)** – Gesetzliche Anbieterkennzeichnung nach § 5 DDG sowie Haftungsausschlüsse für Software und Hardware.
 * 🛡️ **[Datenschutzerklärung](./PRIVACY.md)** – Transparente Informationen zur DSGVO-konformen Datenverarbeitung innerhalb dieses Repositories.
+* 📋 **[Compliance-Status (Entwurf)](./docs/compliance/README.md)** – Vorläufige CE-, CRA- und FIE-bezogene Unterlagen; keine finale Konformitätsdokumentation.
 * 📜 **[Lizenzliste (Third-Party)](./docs/compliance/THIRD_PARTY_LICENSES.md)** – Übersicht über die verwendeten Open-Source-Bibliotheken und Drittlizenzen.
 * 💬 **[Community & Support](../../discussions)** – Unser virtuelles Vereinsheim. Nutze den Tab "Discussions" für Fragen, Erfahrungsaustausch und Best Practices.
 * 🐛 **[Fehler melden](../../issues)** – Nutze den Tab "Issues" für strukturierte Bug-Reports zur Firmware, Webapp oder Hardware.
