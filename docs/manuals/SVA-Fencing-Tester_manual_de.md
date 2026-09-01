@@ -622,6 +622,10 @@ Wechsel zur Infoseite (Button, Wischen nach unten auf der rechten Bildschirmhäl
 Wechsel zum WLAN (Touch auf WLAN-Symbole in der Zeile am oberen Bildschirmrand)
 
 - schneller Wechsel zur Zeiteinstellung (Wischen nach oben) oder langes Antippen der Uhrzeit
+![Abbildung](./assets/manual_de/manual-de-05.png)
+
+![Abbildung](./assets/manual_de/manual-de-01.png)
+
 ### 11.2 Testmodi
 
 Verfügbare Hauptmodi:
@@ -812,12 +816,18 @@ Hinweise:
 - Verbindungspfad und Isolationspfad unterscheiden.
 - Grenzwerte und Warnbereiche gemäß Parametrierung beachten.
 - Zusätzlich steht ein erweiterter Drahttest für Einzelpaar-Messungen zur Verfügung.
+![Abbildung](./assets/manual_de/manual-de-16.png)
+
 #### 12.6.6 Bedienhinweise zum erweiterten Drahttest
 
 - Einstieg über den aktiven Kabeltest-Modus, über die zugehörige Schaltfläche oder über denselben unteren Modus-Button.
 - Im erweiterten Modus werden Kanäle einzeln ausgewählt.
 - Bei einem gültigen Paar wird der Widerstand direkt für dieses Paar dargestellt.
 - Ein erneutes Verlassen des erweiterten Modus erfolgt über die Rückfläche oder durch Rückgeste.
+![Abbildung](./assets/manual_de/manual-de-14.png)
+
+![Abbildung](./assets/manual_de/manual-de-11.png)
+
 #### 12.6.7 Gezielte Fehlersuche mit dem erweiterten Modus
 
 - Der erweiterte Modus eignet sich für die gezielte Suche nach Einzeldefekten.
@@ -991,7 +1001,11 @@ Empfohlener Prüfablauf:
 
 13. Bei Warnbereich oder „Schlecht“ Anschluss wiederholen und danach den Prüfling bewerten.
 
+![Abbildung](./assets/manual_de/manual-de-06.png)
+
 ### 12.4 Säbel Test
+
+![Abbildung](./assets/manual_de/manual-de-02.png)
 
 #### 12.4.1 Zweck und Besonderheiten
 
@@ -1044,6 +1058,8 @@ Empfohlener Prüfablauf:
 5. Ergebnis „Gut“ oder „Schlecht“ für die Gesamtbeurteilung heranziehen.
 
 ### 12.5 Florett Test
+
+![Abbildung](./assets/manual_de/manual-de-17.png)
 
 #### 12.5. 1 Zweck und Besonderheiten
 
@@ -1119,7 +1135,11 @@ Prüfablauf im erweiterten Modus
 
 5. Nach der Detailprüfung wieder in den regulären Modus zurückkehren und die Gesamtfunktion bewerten.
 
+![Abbildung](./assets/manual_de/manual-de-12.png)
+
 ### 12.6 Degen Test
+
+![Abbildung](./assets/manual_de/manual-de-08.png)
 
 #### 12.6.1 Zweck und Besonderheiten
 
@@ -1167,6 +1187,8 @@ Es wird mit erhöhter Abtastrate gearbeitet, bei einen Signalwechsel Gut zu Schl
 
 Eine Berührung des Chart Bereiches setzt die gestoppte Messung wieder fort.
 
+![Abbildung](./assets/manual_de/manual-de-07.png)
+
 #### 12.6.9 Prüfablauf
 
 Regulärer Prüfablauf:
@@ -1205,6 +1227,8 @@ In den Parametern werden Mess- und Geräteeinstellungen festgelegt.
 - Weapon-Test-Parameter
 - Vest-Test-Parameter
 - Netzwerk- und Sicherheitsparameter
+![Abbildung](./assets/manual_de/manual-de-03.png)
+
 ### 13.2 Geräteeinstellungen
 
 Beschreibung:
@@ -1234,6 +1258,8 @@ Beschreibung:
 - Messmodus bestimmt, ob eher schnell oder eher besonders ruhig und genau bewertet wird.
 ### 13.4 Kabel-Test-Parameter
 
+![Abbildung](./assets/manual_de/manual-de-15.png)
+
 #### 13.4.1 Beschreibung
 
 - Ton Modus: akustische Rückmeldung im Kabeltest.
@@ -1250,6 +1276,8 @@ Beschreibung:
 - Graph Limit bestimmt, bis zu welchem Maximalwert Balken und Verlauf skaliert werden.
 ### 13.5 Waffen-Test-Parameter
 
+![Abbildung](./assets/manual_de/manual-de-09.png)
+
 #### 13.5.1 Beschreibung
 
 - Ton Modus: akustische Rückmeldung für Säbel, Florett und Degen.
@@ -1265,6 +1293,8 @@ Beschreibung:
 - Graph Limit bestimmt die Größenordnung der Anzeige.
 - Triggerpos. legt fest, an welcher Stelle die Schaltschwelle in der Trigger-Anzeige liegt.
 ### 13.6 Vest-Test-Parameter
+
+![Abbildung](./assets/manual_de/manual-de-04.png)
 
 #### 13.6.1 Beschreibung
 
@@ -1283,6 +1313,8 @@ Beschreibung:
 - Graph Limit bestimmt die Größenordnung der Anzeige.
 - Helligkeit bestimmt die Helligkeit der externen Farbanzeige.
 ### 13.7 Netzwerk- und Sicherheitsparameter
+
+![Abbildung](./assets/manual_de/manual-de-18.png)
 
 #### 13.7.1 Beschreibung
 
@@ -1431,6 +1463,8 @@ Die Browser-Oberfläche dient zusätzlich zur Anzeige, Einstellung und Wartung.
 
 - Die hauptsächliche Bedienung erfolgt weiterhin über das Gerät.
 - Die Browser Oberfläche ergänzt die Bedienung, ersetzt sie aber nicht in allen Situationen.
+![Abbildung](./assets/manual_de/manual-de-13.png)
+
 ## 17. Firmware-Update
 
 Firmware-Updates können über die Browser-Oberfläche eingespielt werden. Das Gerät benötigt dafür keinen eigenen Internetzugang; ein verbundenes Smartphone oder ein Computer übernimmt bei Bedarf den Download aus dem öffentlichen Projektportal.
