@@ -14,7 +14,7 @@ Verantwortlich für die Datenverarbeitung in diesem spezifischen Repository ist 
 ### 2. Datenverarbeitung durch den Plattform-Betreiber (GitHub)
 Dieses Repository wird auf GitHub gehostet. Wenn du diese Seite besuchst, erfasst GitHub automatisch Protokollierungsdaten (z. B. deine IP-Adresse, Browsertyp, Datum und Uhrzeit des Zugriffs). Auf diese Datenverarbeitung haben wir keinen Einfluss.
 
-Weitere Informationen zur Datenverarbeitung durch GitHub findest du in der [GitHub Privacy Statement](https://github.com).
+GitHub verarbeitet Nutzungs- und Inhaltsdaten im Rahmen der eigenen Plattformverantwortung. Informationen zu Empfängern, möglichen internationalen Datenübermittlungen und den dort geltenden Schutzmaßnahmen findest du in der [GitHub Privacy Statement](https://docs.github.com/de/site-policy/privacy-policies/github-privacy-statement).
 
 ---
 
@@ -26,20 +26,21 @@ Wenn du aktiv mit diesem Repository interagierst (z. B. einen Bug-Report im Tab 
 
 **Zweck der Verarbeitung:** Bereitstellung einer Support- und Austauschplattform für Fechter und Vereine, Fehlerbehebung der Firmware/Hardware sowie die kontinuierliche Weiterentwicklung des Projekts.
 **Rechtsgrundlage:** Die Verarbeitung erfolgt auf Grundlage unseres berechtigten Interesses an der Kommunikation mit Nutzern und der Verbesserung unseres Non-Profit-Projekts (Art. 6 Abs. 1 lit. f DSGVO).
+**Empfänger:** Die Beiträge werden über GitHub verarbeitet und sind bei öffentlichen Issues, Discussions und Pull Requests für die Öffentlichkeit sichtbar. Darüber hinaus setzen wir für dieses Repository keine eigenen Tracking- oder Analysedienste ein.
 
 ---
 
 ### 4. Hardware- und Ersatzteilanfragen
 Sobald die Testphase beendet ist und Anfragen für Komplettgeräte oder vorbestückte Platinen über GitHub-Formulare (Issue Templates) möglich sind, verarbeiten wir die von dir dort freiwillig angegebenen Daten (z. B. Vereinsname, Stückzahlen). 
-* Diese Daten dienen ausschließlich der Abwicklung des privaten Materialkosten- und Aufwandsersatzes.
-* Eine Weitergabe an Dritte erfolgt nicht, es sei denn, dies ist zur Erfüllung gesetzlicher Pflichten (z. B. steuerliche Nachweise für die Vereinsbuchhaltung) erforderlich.
+* Diese Daten dienen ausschließlich der Vorbereitung und – erst nach Abschluss der Testphase – der Abwicklung eines angefragten Materialkosten- und Aufwandsersatzes.
+* Eine Weitergabe erfolgt nur, soweit sie für die Abwicklung erforderlich oder gesetzlich vorgeschrieben ist. Hardware-Anfragen sind während der Testphase deaktiviert.
 **Rechtsgrundlage:** Die Verarbeitung dient der Anbahnung oder Erfüllung einer privaten Vereinbarung über den Aufwandsersatz (Art. 6 Abs. 1 lit. b DSGVO).
 
 ---
 
 ### 5. Speicherdauer
-* **Öffentliche Beiträge:** Deine Beiträge in Issues und Discussions bleiben grundsätzlich so lange im Repository sichtbar, wie das Projekt auf GitHub existiert, es sei denn, du löschst deinen Beitrag oder dein GitHub-Konto selbst.
-* **Anfragen:** Daten aus Hardware-Anfragen werden so lange gespeichert, wie es für die Abwicklung und die gesetzlichen Aufbewahrungsfristen (z. B. steuerliche Nachweise des Aufwandsersatzes) notwendig ist.
+* **Öffentliche Beiträge:** Beiträge in Issues und Discussions bleiben grundsätzlich sichtbar, solange sie auf GitHub veröffentlicht sind. Die Bearbeitung oder Löschung richtet sich nach den Funktionen und Richtlinien von GitHub; bei berechtigten Löschanfragen kannst du den im Impressum genannten Kontakt nutzen.
+* **Anfragen:** Daten aus später aktivierten Hardware-Anfragen werden nur so lange gespeichert, wie dies für die Bearbeitung, Abwicklung und gegebenenfalls gesetzliche Aufbewahrungspflichten erforderlich ist.
 
 ---
 

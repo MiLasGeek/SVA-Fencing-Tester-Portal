@@ -7,10 +7,10 @@ labels: anfrage
 
 ### 📢 Wichtige Rahmenbedingungen (Bitte vorab lesen)
 Mit dem Absenden dieser Anfrage nimmst du Folgendes zur Kenntnis:
-1. Dies ist ein **privates Ehrenamtsprojekt** ohne gewerbliche Absichten.
+1. Das Projekt wird derzeit von einer einzelnen Privatperson ehrenamtlich in der Freizeit betrieben; eine Gewinnabsicht besteht nicht.
 2. Die Kosten decken rein die **Beschaffung und Fertigung zum Selbstkostenpreis** (ohne Gewinn). Die Preise können sich je nach Marktlage der Bauteile ändern.
 3. Die Fertigung erfolgt **nach zeitlicher Verfügbarkeit** in der Freizeit. Bitte plane Wartezeiten ein.
-4. **Steuerlicher Hinweis:** Da es sich um eine rein private Unterstützung handelt, wird keine eigene Umsatzsteuer ausgewiesen. Alle Bauteile werden regulär versteuert über offizielle Distributoren (Mouser, Aisler) beschafft und zu diesen Brutto-Selbstkosten (inkl. Steuern) weitergegeben. Vereine erhalten eine private Quittung.
+4. **Kostenhinweis:** Bauteile werden über offizielle Distributoren wie Mouser und Aisler beschafft. Eine mögliche Weitergabe erfolgt zu den tatsächlich angefallenen Brutto-Materialkosten ohne Gewinnaufschlag und nur in kleinen, handbestückbaren Stückzahlen. Die Angaben werden vor einer tatsächlichen Bereitstellung erneut geprüft.
 
 ---
 

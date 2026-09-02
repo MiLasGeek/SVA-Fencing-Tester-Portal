@@ -33,8 +33,8 @@ Der oben genannte Verein erstattet der Privatperson die reinen, tatsächlichen S
 
 ### ⚖️ 4. Wichtige steuerliche und rechtliche Hinweise
 
-1. **Kein gewerblicher Verkauf:** Diese Unterstützung erfolgt rein privat, ehrenamtlich und im Rahmen der Nachbarschaftshilfe/Vereinshilfe von Fechter zu Fechter. Es liegt keine gewerbliche Tätigkeit und keine Einkunftserzielungsabsicht vor (steuerliche "Liebhaberei").
-2. **Keine Umsatzsteuer:** Der Erbringer ist kein Unternehmer im Sinne des UStG. Es wird **keine Umsatzsteuer ausgewiesen**.
+1. **Aktueller Projektstatus:** Die Unterstützung erfolgt derzeit durch eine einzelne Privatperson ehrenamtlich in der Freizeit und ohne Gewinnabsicht. Die steuerliche und rechtliche Einordnung richtet sich nach den tatsächlichen Umständen des Einzelfalls.
+2. **Umsatzsteuer:** In diesem Beleg wird keine Umsatzsteuer gesondert ausgewiesen. Sollte sich die Organisations- oder Fertigungsform ändern, sind die Abrechnungsangaben vor einer Bereitstellung anzupassen.
 3. **1:1 Brutto-Weitergabe:** Alle verwendeten Elektronikteile wurden regulär versteuert über offizielle Distributoren eingekauft. Der oben genannte Betrag entspricht exakt den realen Brutto-Gestehungskosten.
 4. **Ausschluss der Gewährleistung:** Da es sich um eine private Gefälligkeit handelt, erfolgt die Abgabe unter vollständigem Ausschluss jeglicher Sachmängelhaftung, Garantie oder gewerblichen Gewährleistung.
 

@@ -1,6 +1,6 @@
-# ⏳ Entwicklungsgeschichte & Prioritätsnachweis (Development History)
+# ⏳ Entwicklungsgeschichte & Veröffentlichungsnachweis (Development History)
 
-Dieses Dokument dient dem lückenlosen Nachweis der eigenständigen, ehrenamtlichen Entwicklung des SVA-Fencing-Testers. Die dauerhafte, kryptografisch zeitgestempelte Veröffentlichung dieser Chronologie und der zugrundeliegenden Schaltungsprinzipien auf GitHub begründet den rechtlichen Status des **„Standes der Technik“** (Defensive Publishing). Eine exklusive Patentierung oder Monopolisierung der hier offengelegten Verfahren durch Dritte ist damit weltweit ausgeschlossen.
+Dieses Dokument hält die eigenständige, ehrenamtliche Entwicklung des SVA-Fencing-Testers und den jeweiligen Veröffentlichungsstand fest. Öffentliche, zeitgestempelte Veröffentlichungen können bei einer späteren Bewertung als Hinweis auf einen früheren Stand der Technik dienen. Sie ersetzen jedoch keine Patent-, Rechts- oder Neuheitsprüfung und begründen keinen automatischen weltweiten Ausschluss von Schutzrechten Dritter.
 
 ---
 

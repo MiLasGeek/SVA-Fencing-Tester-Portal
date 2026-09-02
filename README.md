@@ -13,7 +13,7 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
 * ⚙️ **[Technische Spezifikationen](./FEATURES.md)** – Das vollständige, detaillierte Leistungsspektrum und alle Geräteeigenschaften im Überblick.
-* ⏳ **[Entwicklungsgeschichte & Prioritätsnachweis](./DEVELOPMENT_HISTORY.md)** – Die lückenlose Chronologie der Hardware-Revisionen (Rev 1.0 bis Rev 4.0).
+* ⏳ **[Entwicklungsgeschichte & Veröffentlichungsnachweis](./DEVELOPMENT_HISTORY.md)** – Die Chronologie der Hardware-Revisionen (Rev 1.0 bis Rev 4.0).
 * 💻 **[Software-Architektur & Algorithmen](./SOFTWARE_ARCHITECTURE.md)** – Dokumentation der deterministischen Echtzeit-Schnittstellen und Lock-Free-Puffer.
 * ⚖️ **[Rechtliches & Impressum](./IMPRINT.md)** – Gesetzliche Anbieterkennzeichnung nach § 5 DDG sowie Haftungsausschlüsse für Software und Hardware.
 * 🛡️ **[Datenschutzerklärung](./PRIVACY.md)** – Transparente Informationen zur DSGVO-konformen Datenverarbeitung innerhalb dieses Repositories.
@@ -72,10 +72,10 @@ Es gibt keinen kommerziellen Weboss-Shop. Alle Bereitstellungen erfolgen privat 
 
 ## 🧾 Steuerlicher Hinweis & Abrechnung
 
-* **Keine gewerbliche Rechnung:** Da es sich um eine rein private, ehrenamtliche Unterstützung von Fechter zu Fechter handelt, wird keine Umsatzsteuer ausgewiesen und keine gewerbliche Rechnung ausgestellt.
-* **Brutto-Selbstkosten:** Alle elektronischen Bauteile werden ordnungsgemäß versteuert über offizielle Distributoren (Mouser, Aisler) eingekauft. Die Weitergabe an Vereine erfolgt zu diesen tatsächlichen Brutto-Materialpreisen ohne jegliche Gewinnabsicht, meist gesammelt in On-Demand-Chargen für je 10 Systeme zur Versandkosten-Optimierung.
+* **Aktueller Rahmen:** Das Projekt wird von einer einzelnen Privatperson in der Freizeit betrieben; eine Gewinnabsicht besteht nicht. Solange keine andere Organisationsform oder gewerbliche Tätigkeit besteht, werden keine gesonderten Umsatzsteuerbeträge ausgewiesen.
+* **Brutto-Selbstkosten:** Elektronische Bauteile werden über offizielle Distributoren wie Mouser und Aisler bezogen. Eine etwaige Weitergabe erfolgt zu den tatsächlich angefallenen Brutto-Materialkosten, ohne Gewinnaufschlag und nur im Rahmen der zeitlich möglichen Handbestückung.
 * **Vereinsbuchhaltung:** Vereine erhalten einen privaten Kaufbeleg (Quittung über Aufwandsersatz/Materialkosten) für ihre Unterlagen. Kopien der originalen Distributor-Rechnungen können zur absoluten Transparenz beigelegt werden. 
-* **Fertigung nach Verfügbarkeit:** Da die Bestückung, die Factory-$R_0$-Kalibrierung und die Endtests vollständig in der Freizeit stattfinden, erfolgt die Fertigung ausschließlich nach zeitlicher Verfügbarkeit. Bitte plant entsprechende Wartezeiten ein.
+* **Fertigung nach Verfügbarkeit:** Bestückung, Kalibrierung und Endtests erfolgen in der Freizeit und nur in kleinen Stückzahlen. Sollte sich die Organisations- oder Fertigungsform ändern, werden die rechtlichen, steuerlichen und vertraglichen Angaben vor einer Bereitstellung entsprechend überprüft und angepasst.
 
 ---
 
