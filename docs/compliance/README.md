@@ -33,12 +33,13 @@ The SVA-Fencing-Tester (Rev 2 / Rev 4) is being developed according to "Security
 * **No Internet Routing:** The device operates exclusively as a local, air-gapped server. It features no network forwarding, no internet gateway routing, and cannot connect to external cloud services.
 * **Hardened Server & Binary Streams:** The local network architecture consists solely of a locked-down, proprietary server utilizing a minimalist REST API and an isolated, purely binary measurement data stream for real-time hit telemetry.
 * **Strict Upload Restriction:** Outside of the authenticated OTA firmware update pipeline and the local configuration JSON import, no files can be uploaded or written to the internal LittleFS partition.
+* **Physical Service Boundary:** Secure Boot is not enabled. Flash encryption and the custom OTA format protect the confidentiality of release contents and the regular update paths, but they do not prevent physical reprogramming. Reprogramming requires opening the device, the custom programming adapter and an independently developed firmware for the custom hardware; a device modified in this way is outside the released and supported configuration.
 
 ---
 
 ## 📦 Proprietary Encrypted OTA Bundle Format (SVA-Container)
 
-To safeguard intellectual property, protect pending patent designs, and ensure hardware-level security, the SVA-Fencing-Tester strictly enforces an encrypted, proprietary bundle format (`.ota`). 
+To protect release contents and maintain a controlled update workflow, the SVA-Fencing-Tester uses an encrypted, proprietary bundle format (`.ota`).
 
 Unencrypted firmware binaries (`.bin`) or raw file system images are never distributed publicly and will be automatically rejected by the device's bootloader.
 
@@ -47,7 +48,7 @@ Unencrypted firmware binaries (`.bin`) or raw file system images are never distr
 1. **Cryptographic Encapsulation (Container Encryption):**
    The firmware payload and LittleFS system assets (webapp and lite manual) are packed into a proprietary container using a private cryptographic routine prior to deployment on the `main` branch. The intended protection against extraction or unauthorised modification depends on the implemented cryptography, key management and final release configuration.
 2. **Integrity & Origin Validation:**
-   Before executing any flash sequence, the device validates the structure, header signatures, and checksums of the custom bundle. Modified, corrupted, or third-party tempered files are instantly rejected by the main updater and recovery servers.
+   Before executing any flash sequence, the device validates the structure, header signatures, and checksums of the custom bundle. Modified, corrupted, or third-party tampered files are rejected by the main updater and recovery server.
 3. **Intellectual Property Protection:**
    This closed distribution workflow is intended to protect the integrity of released update bundles and the project's proprietary implementation.
 

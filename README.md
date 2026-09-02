@@ -47,7 +47,7 @@ Dieses Projekt ist auf Code-Ebene Closed-Source. Es werden keine Quellcodes oder
 * **Hybrid-Updates über Client-Brücke:** Die Geräte arbeiten im Messbetrieb komplett offline und strahlen einen eigenen WLAN-Access-Point aus. Der Abgleich erfolgt über den Browser des Endgeräts (Smartphone/PC), welcher die Update-Datei von GitHub lädt und lokal per Webapp auf den Tester überträgt. Alternativ ist ein Offline-Update via microSD-Karte möglich.
 * **All-in-One Custom Bundle:** Updates werden als verschlüsseltes Kombi-Paket bereitgestellt, welches die Firmware, das LittleFS-Dateisystem (inkl. der komprimierten Webapp `webapp.gz`) und ein schlankes Geräte-Handbuch enthält.
 * **Automatischer Failsafe (Recovery Mode):** Die Integrität des Filesystems wird beim Systemstart geprüft. Fehlt die `webapp.gz` im Flash oder ist sie beschädigt, lädt der ESP32 automatisch einen autarken, minimalistischen Notfall-Webserver. Die Weboberfläche zur Rettung ist im Fehlerfall direkt über **`http://192.168.4.1`** erreichbar.
-* **Hardware-Sicherheit:** Vor dem ersten offiziellen Release wird die hardwareseitige AES-Verschlüsselung des ESP32-S3 (Flash Encryption) dauerhaft aktiviert. Das physische Auslesen des Flash-Speichers über die GPIO-Pins ist dadurch kryptografisch wirkungslos.
+* **Hardware-Sicherheit:** Für die Releasekonfiguration ist die hardwareseitige AES-Verschlüsselung des ESP32-S3 (Flash Encryption) vorgesehen. Sie schützt die Vertraulichkeit der Flash-Inhalte, ersetzt jedoch keinen hardwareseitig erzwungenen Secure Boot oder physischen Manipulationsschutz. Die genaue Grenze ist in der Compliance-Dokumentation beschrieben.
 
 ---
 
