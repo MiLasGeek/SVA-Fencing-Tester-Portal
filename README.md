@@ -11,6 +11,7 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 
 * 🤖 **[Firmware & OTA-Updates](./bin)** – Enthält die `version.json` für den automatischen Versionsabgleich über den Client-Browser sowie die offiziellen Update-Bundles.
 * 🤺 **[FIE-Presets](./fie)** – Lesbare, signierte FIE-Prüfparameter mit aktuellem Manifest, Archiv und direktem Download für die Geräte-Webapp.
+* 📑 **[FIE Material Rules (December 2025)](https://static.fie.org/uploads/38/190667-book%20m%20ang.pdf)** – Externe Regelwerksreferenz des aktuellen FIE-Presets; Erreichbarkeit und Aktualität liegen bei der FIE.
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
 * ⚙️ **[Technische Spezifikationen](./FEATURES.md)** – Das vollständige, detaillierte Leistungsspektrum und alle Geräteeigenschaften im Überblick.

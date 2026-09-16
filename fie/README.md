@@ -17,6 +17,8 @@ The device webapp can download the current preset through the user's browser, or
 
 The manifest checksum is an additional transport check only. A modified portal file, manifest or browser response cannot activate a changed preset without a valid device-trusted signature.
 
+The source URL is the signed reference snapshot for this particular preset; it is not a promise that the linked FIE document remains reachable or the newest publication. The external FIE website is outside this project's control. A changed FIE source, rule edition or URL requires a new dated, versioned and signed preset. Published preset files are never edited retroactively. Devices continue to show and use their imported preset until the user explicitly loads or imports a newer one.
+
 ## Publication rule
 
 Each new release keeps its dated signed JSON package in `stable/` and updates `latest.json` only after the package, its SHA-256 value, FIE source document and source month/year have been reviewed together. The source version uses the exact form `Month YYYY`, for example `December 2025`.
