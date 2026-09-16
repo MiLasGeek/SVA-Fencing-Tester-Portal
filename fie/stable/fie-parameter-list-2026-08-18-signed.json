@@ -1,0 +1,32 @@
+{
+  "format": "fie-parameter-list-signed",
+  "schema_version": 2,
+  "preset": {
+    "format": "fie-parameter-list",
+    "schema_version": 2,
+    "version": 1,
+    "date": "2026-08-18",
+    "limits_ohm": {
+      "r_wire": 1.0,
+      "r_roll": 3.0,
+      "r_vest": 5.0,
+      "r_weapon_point": 2.0
+    },
+    "source": {
+      "url": "https://static.fie.org/uploads/38/190667-book%20m%20ang.pdf",
+      "document": "FIE Material Rules",
+      "version": "December 2025"
+    },
+    "rules": {
+      "r_wire": "m.29.1(c): bodywire conductor maximum 1 ohm",
+      "r_roll": "m.55.1: spool wire maximum 3 ohms",
+      "r_vest": "m.28.5(a): conductive jacket maximum 5 ohms",
+      "r_weapon_point": "m.5.4(a): foil and epee maximum 2 ohms; sabre uses r_wire"
+    }
+  },
+  "signature": {
+    "algorithm": "ECDSA-P256-SHA256",
+    "key_id": "sva-fie-p256-78d5ada7433c14f2",
+    "value": "MEUCIQD33EVLIUnypsptvDLHIqZWiZc3aF5DXE46HLPCwJNykQIgX5Exyk2zir18ESIPnjH7l5YH8idJ2paLXE04Shr1kEA="
+  }
+}

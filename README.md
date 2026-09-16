@@ -10,6 +10,7 @@ Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der De
 ## 📂 Portal-Übersicht
 
 * 🤖 **[Firmware & OTA-Updates](./bin)** – Enthält die `version.json` für den automatischen Versionsabgleich über den Client-Browser sowie die offiziellen Update-Bundles.
+* 🤺 **[FIE-Presets](./fie)** – Lesbare, signierte FIE-Prüfparameter mit aktuellem Manifest, Archiv und direktem Download für die Geräte-Webapp.
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
 * ⚙️ **[Technische Spezifikationen](./FEATURES.md)** – Das vollständige, detaillierte Leistungsspektrum und alle Geräteeigenschaften im Überblick.

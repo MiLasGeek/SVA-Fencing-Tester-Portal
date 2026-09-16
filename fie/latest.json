@@ -1,0 +1,13 @@
+{
+  "format": "sva-fie-preset-manifest-v1",
+  "latest_preset": {
+    "version": 1,
+    "preset_date": "2026-08-18",
+    "source_document": "FIE Material Rules",
+    "source_version": "December 2025",
+    "filename": "fie-parameter-list-2026-08-18-signed.json",
+    "download_url": "https://raw.githubusercontent.com/MiLasGeek/SVA-Fencing-Tester-Portal/main/fie/stable/fie-parameter-list-2026-08-18-signed.json",
+    "sha256": "c69ed153cadffa1613538660f2179490bcd725d5ec5b7472b89c69e0ed8b7595",
+    "key_id": "sva-fie-p256-78d5ada7433c14f2"
+  }
+}
