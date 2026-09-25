@@ -45,6 +45,11 @@ bewerteten Kennwerte wird in der Datei-Datenbank zur Seriennummer des Geräts
 abgelegt. Damit bleiben R0-Wert und zugrundeliegender Messnachweis für Wartung,
 erneute Prüfung und Ursachenanalyse zuordenbar.
 
+Nur wenn alle festgelegten Qualitätsgrenzen eingehalten sind, wird der Median
+dieser Reihe als R0 übernommen. Bei 299, also einer ungeraden Zahl von Samples,
+ist dieser Median ein tatsächlich erfasster Rohmesswert (Raw Count) und kein
+interpolierter Zwischenwert.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
