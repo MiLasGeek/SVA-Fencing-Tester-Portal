@@ -7,6 +7,20 @@ Meldeanlage und ersetzt keine formale Materialabnahme durch die zuständigen
 Stellen. Die technische Messvalidierung dokumentiert die Eignung der Messkette
 für den vorgesehenen Prüfzweck; sie ist keine FIE-Zertifizierung.
 
+## FIE-Einordnung des Materialtesters
+
+Die [FIE Material Rules, Ausgabe Dezember 2025](https://static.fie.org/uploads/38/190667-book%20m%20ang.pdf)
+nennen als homologationspflichtig Klingen, Spitzen, Schutzkleidung einschließlich
+Masken und Handschuhen, Meldeanlagen, Planchen, Video-Refereeing-Systeme und
+Wettkampfsoftware. Ein eigenständiger Materialtester zur Diagnose von
+Fechtausrüstung ist dort nicht aufgeführt. Daraus folgt für diesen Tester keine
+Behauptung einer FIE-Homologation und kein Recht zur Nutzung des FIE-Emblems.
+
+Diese Einordnung bezieht sich ausschließlich auf die genannte, datierte
+Regelversion. Die FIE kann den Anwendungsbereich erweitern; außerdem können
+Veranstalter, nationale Verbände oder Prüfstellen weitergehende Anforderungen
+an ein vor Ort verwendetes Prüfmittel stellen.
+
 ## Messprinzip
 
 Die Widerstandsmessung verwendet eine ratiometrische Vierleiter-
