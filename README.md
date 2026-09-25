@@ -6,6 +6,8 @@ Der SVA-Fencing-Tester wird von Fechtern für Fechter ohne Gewinnabsicht entwick
 
 Die Bedienung wird bewusst einfach und möglichst intuitiv gestaltet, damit Ergebnisse eindeutig eingeordnet werden können und Interpretationsfehler vermieden werden. Das Gerät soll sowohl Einsteigern als auch erfahrenen Prüfern helfen; Nachwuchs nutzt es im Vereinsrahmen nach Einweisung und bei Bedarf begleitet.
 
+Das Bedienkonzept folgt dem Prinzip **vom Ergebnis zum Detail**: Zuerst zeigt die Oberfläche klar OK oder NOK. Balken mit Grenzlinie und einstellbarem Warnbereich vermitteln anschließend, wie gut oder wie schlecht ein Messwert ist - mit einem Verlauf von Grün zu Gelb. Charts und Zahlenwerte ermöglichen die vertiefte Analyse; eine vollständige visuelle Anschluss- und Fehlermatrix macht Zusammenhänge auf einen Blick sichtbar. So reduziert die Oberfläche die geistige Belastung bei der Prüfung.
+
 ⚠️ **AKTUELLER STATUS: Entwicklungs- und Evaluierungsphase**
 Dieses öffentliche Portal veröffentlicht OTA-Updates, Handbücher, technische Hinweise und signierte Prüfparameter. Firmware und Webapp bleiben Closed Source; Quellcode und editierbare Elektronik-Layouts werden hier nicht veröffentlicht. Nicht CE-gekennzeichnete Einheiten sind keine allgemeinen Produkte und nicht für Verbraucher freigegeben.
 
