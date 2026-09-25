@@ -13,6 +13,7 @@ Diese Übersicht führt zu den öffentlich verfügbaren Anleitungen und Hintergr
 ## Wartung und Hardware
 
 - [Stückliste & Service-Konzept](./bom.md) – Überblick über Komponenten und austauschbare Teile.
+- [Messvalidierung und Genauigkeit](./measurement_validation.md) – Messprinzip, Inhouse-Validierung und FIE-Modus.
 - [Reparaturleitfaden](./repair/material_failures.md) – Hinweise zu häufigen Materialfehlern an Fechtausrüstung.
 - [Hardware-Übersicht](../hardware/README.md) – PCB-Renderings und STEP-Modelle der Hardware-Revisionen.
 
