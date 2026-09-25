@@ -67,6 +67,8 @@ Es gibt keinen kommerziellen Webshop und keine allgemeine Geräteabgabe. Nicht C
 
 Das Projekt kann eine technische Akkuempfehlung bereitstellen. Der Akku wird nicht als Bestandteil des Evaluierungskits geliefert. Das vermeidet Gefahrgutversand und hilft, die Bereitstellungs- und Beschaffungskosten für Vereine niedrig zu halten. Er darf nur unbeschädigt, ohne Gewalt und gemäß der Kit-Anleitung angeschlossen werden. Die Endmontage durch den Verein ändert für sich allein weder die rechtliche Einordnung des Kits noch ersetzt sie die später erforderliche Konformitätsbewertung.
 
+Die Übergabe der Evaluierungskits erfolgt in der Regel persönlich. Dadurch entfällt Versandverpackung; die Anforderungen für eine spätere allgemeine Marktbereitstellung bleiben davon unberührt.
+
 Private Fechter erhalten keine Einheit direkt, sondern nur über ihren Verein im Rahmen dieses Projektvorhabens. Eine andere Bereitstellung wird erst nach Abschluss der erforderlichen Laborprüfungen und der Konformitätsbewertung geprüft.
 
 Die technische Vorbereitung für die Laborprüfung ist abgeschlossen. Bei der kleinen Stückzahl liegen die Kosten voraussichtlich etwa beim Vier- bis Fünffachen der Kosten von zehn Geräten. Spenden und Fördermittel werden vorrangig für die EMV- und Funkprüfungen durch ein geeignetes Labor eingesetzt.
