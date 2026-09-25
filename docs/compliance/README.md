@@ -37,7 +37,7 @@ For perspective, the published stiftung ear B2B example for one registration cur
 
 This boundary is not intended to avoid statutory duties. If a supply is classified as making the product available on the market, the applicable duties will be fulfilled regardless of quantity or cost recovery. For a one-off small run, however, recurring registration and administration costs would be a material private subsidy because clubs receive units only at cost. The evaluation phase therefore provides a documented way to establish actual demand and technical maturity before a general release is considered.
 
-A small number of documented units in the field is appropriate for that evaluation; gradual expansion through additional small runs is not. If demand exceeds this limited scope, no further units will be supplied until the project has moved to professional or automated manufacture, completed conformity assessment and completed the full market-release process.
+A small number of documented units in the field is appropriate for that evaluation; gradual expansion through additional small runs is not. If demand exceeds this limited scope, an appropriate manufacturer should take over professional or automated manufacture, completed conformity assessment and the full market-release process. This is conditional on a price that remains appropriate for clubs and respects the voluntary nature of the project's development.
 
 ---
 
