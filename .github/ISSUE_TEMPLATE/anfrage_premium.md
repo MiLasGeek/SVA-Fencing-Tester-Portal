@@ -11,6 +11,7 @@ Mit dem Absenden dieser Anfrage nimmst du Folgendes zur Kenntnis:
 2. Das Kit ist nicht CE-gekennzeichnet und wird ausschließlich als kundenspezifisches Evaluierungskit zur dokumentierten Forschung und Entwicklung überlassen. Es ist nicht für Verbraucher, eine allgemeine Marktbereitstellung oder den regulären Vereinsbetrieb bestimmt.
 3. Der Verein benennt eine sachkundige Projektleitung, beschafft einen geeigneten Akku selbst, führt dessen Anschluss über den vorgesehenen Steckverbinder im Rahmen der Endmontage durch und verwendet das Kit ausschließlich in der dokumentierten Forschungs- und Entwicklungsumgebung.
 4. Private Fechter erhalten keine Einheit direkt. Eine andere Bereitstellung wird erst nach abgeschlossener Laborprüfung und Konformitätsbewertung geprüft.
+5. Erwerb oder Kostenerstattung werden individuell mit dem Verein abgestimmt. Die begrenzte, dokumentierte Evaluierung ist keine Zusage einer allgemeinen Marktfreigabe oder Rechtsfreistellung.
 
 ---
 

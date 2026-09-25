@@ -73,6 +73,8 @@ Für die Rücknahme eines Evaluierungskits bitte vorab Kontakt aufnehmen. Der ab
 
 Private Fechter erhalten keine Einheit direkt, sondern nur über ihren Verein im Rahmen dieses Projektvorhabens. Eine andere Bereitstellung wird erst nach Abschluss der erforderlichen Laborprüfungen und der Konformitätsbewertung geprüft.
 
+Ein Erwerb oder eine Kostenerstattung für ein Evaluierungskit wird ebenso individuell mit dem Verein abgestimmt; es gibt keinen offenen Shop und keine anonyme Direktbestellung. Dieser kleine, dokumentierte Rahmen erleichtert Übergabe, Rücknahme und Nachverfolgbarkeit. Er ersetzt jedoch nicht die rechtliche Prüfung, falls eine Überlassung als Marktbereitstellung einzuordnen ist.
+
 Die technische Vorbereitung für die Laborprüfung ist abgeschlossen. Bei der kleinen Stückzahl liegen die Kosten voraussichtlich etwa beim Vier- bis Fünffachen der Kosten von zehn Geräten. Spenden und Fördermittel werden vorrangig für die EMV- und Funkprüfungen durch ein geeignetes Labor eingesetzt.
 
 Eine CE-Erklärung wird erst nach abgeschlossener, dokumentierter Konformitätsbewertung unterzeichnet. Vor einer allgemeinen Marktbereitstellung werden außerdem die jeweils anwendbaren Pflichten für Elektrogeräte, Batterien und Verpackungen - einschließlich Kennzeichnung, Registrierung, Rücknahme und Entsorgung - geprüft und erfüllt.
