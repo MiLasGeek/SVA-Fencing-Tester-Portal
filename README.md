@@ -2,8 +2,8 @@
 
 Willkommen im offiziellen Portal für den SVA-Fencing-Tester. Dieses Projekt wird als private Non-Profit-Initiative im Ehrenamt geführt, um Fechtvereine und Fechter mit einem zuverlässigen Werkzeug für die Wartung und Materialkontrolle zu unterstützen.
 
-⚠️ **AKTUELLER STATUS: UNDER CONSTRUCTION (Entwicklungsphase)**
-Dieses Repository befindet sich aktuell im Aufbau und dient dem Live-Test der Device-Webapp-Verlinkung. Die hier hinterlegten Firmware-Dateien, Schaltpläne und Dokumente sind reine Testversionen und noch nicht für den produktiven Einsatz freigegeben. Anfragen für Hardware-Komponenten sind in dieser Phase noch deaktiviert.
+⚠️ **AKTUELLER STATUS: Entwicklungs- und Evaluierungsphase**
+Dieses öffentliche Portal veröffentlicht OTA-Updates, Handbücher, technische Hinweise und signierte Prüfparameter. Firmware und Webapp bleiben Closed Source; Quellcode und editierbare Elektronik-Layouts werden hier nicht veröffentlicht. Nicht CE-gekennzeichnete Einheiten sind keine allgemeinen Produkte und nicht für Verbraucher freigegeben.
 
 ---
 
@@ -63,12 +63,13 @@ Um den begrenzten Flash-Speicher des ESP32 zu schonen, teilen wir die Dokumentat
 
 ## 🛠️ Bezug von Hardware & Ersatzteilen (Non-Profit)
 
-Es gibt keinen kommerziellen Weboss-Shop. Alle Bereitstellungen erfolgen privat auf Non-Profit-Basis und direkt auf Anfrage über unsere integrierten GitHub-Formulare, sobald die Testphase beendet ist.
+Es gibt keinen kommerziellen Webshop und keine allgemeine Geräteabgabe. Nicht CE-gekennzeichnete Einheiten werden ausschließlich als kundenspezifische Evaluierungskits an benannte Vereine mit sachkundiger Projektleitung abgegeben. Der Verein übernimmt die Endmontage und verwendet das Kit ausschließlich in einer dokumentierten Forschungs- und Entwicklungsumgebung.
 
-* **DIY-Variante (Freier Nachdruck):** Das Basis-Gehäuse sowie alle Verschleißteile (Tasterkappen, Gehäuseclips etc.) können über die Designdateien im Hardware-Ordner für den Eigenbedarf frei gedruckt werden.
-* **Komplettgeräte & vorbestückte Platinen:** Für Vereine ohne eigenen 3D-Drucker oder Lötausrüstung fertigen wir optimierte Premium-Gehäuse, im einseitigen Reflow-Verfahren vorbestückte Custom-PCBs (inkl. Akku mit JST-Stecker, separater Powerbank-Platine und passgenauer Stencil-Schablone) sowie Komplettsysteme auf Anfrage im On-Demand-Sammelverfahren.
+Private Fechter erhalten keine Einheit direkt, sondern nur über ihren Verein im Rahmen dieses Projektvorhabens. Eine andere Bereitstellung wird erst nach Abschluss der erforderlichen Laborprüfungen und der Konformitätsbewertung geprüft.
 
-👉 **[Hier eine Anfrage für Hardware oder Ersatzteile erstellen](../../issues/new?template=anfrage_premium.md)** *(In der Testphase inaktiv)*
+Die technische Vorbereitung für die Laborprüfung ist abgeschlossen. Bei der kleinen Stückzahl liegen die Kosten voraussichtlich etwa beim Vier- bis Fünffachen der Kosten von zehn Geräten. Spenden und Fördermittel werden vorrangig für die EMV- und Funkprüfungen durch ein geeignetes Labor eingesetzt.
+
+👉 **[Evaluierungskit-Anfrage für einen Verein erstellen](../../issues/new?template=anfrage_premium.md)**
 
 ---
 

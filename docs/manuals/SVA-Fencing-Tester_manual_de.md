@@ -14,7 +14,11 @@ Zielgruppe:
 - Personen, die im Verein Leitungen (Körperkabel, Maskenkabel, Rollen), Waffen oder Westen prüfen.
 ### 1.1 Rechtlicher und organisatorischer Hinweis
 
-Der SVA-Fencing-Tester ist ein privat und ehrenamtlich entwickeltes Projekt zur gezielten Unterstützung des Fechtsports. Die Bereitstellung und Weitergabe erfolgen vollständig auf Non-Profit-Basis und ohne Gewinnerzielungsabsicht, um Vereinen eine erschwingliche und hochpräzise Materialpflege zu ermöglichen.
+Der SVA-Fencing-Tester ist ein privat und ehrenamtlich entwickeltes Non-Profit-Projekt zur gezielten Unterstützung des Fechtsports. Firmware und gerätespezifische Webapp sind urheberrechtlich geschützt und Closed Source; dieses öffentliche Portal veröffentlicht ausschließlich OTA-Updates, Handbücher, technische Hinweise und signierte Prüfparameter.
+
+**Konformitätsstatus und beschränkte Überlassung:** Das Gerät ist derzeit nicht CE-gekennzeichnet. Für das fertige Endgerät liegen noch keine abgeschlossene RED-Konformitätsbewertung und kein abschließender EMV-Laborbericht vor. Nichtkommerzieller Zweck, geringe Stückzahl oder die Überlassung an Vereine begründen für sich allein keine pauschale Ausnahme von den geltenden Anforderungen.
+
+Eine Überlassung erfolgt ausschließlich als kundenspezifisches Evaluierungskit an benannte Vereine mit sachkundiger, benannter Projektleitung. Der Verein führt die Endmontage selbst durch und nutzt das Kit ausschließlich in einer dokumentierten Forschungs- und Entwicklungsumgebung zur Materialprüfung. Private Fechter erhalten keine Einheiten direkt, sondern ausschließlich über ihren Verein im Rahmen dieses dokumentierten Projekts. Das Kit ist nicht für Verbraucher, eine allgemeine Marktbereitstellung oder den regulären Vereinsbetrieb bestimmt. Erst nach Abschluss der erforderlichen Laborprüfungen und der Konformitätsbewertung kann eine andere Bereitstellung geprüft werden. Die technische Vorbereitung für die Laborprüfung ist abgeschlossen; bei kleiner Stückzahl liegen deren Kosten voraussichtlich etwa beim Vier- bis Fünffachen der Kosten von zehn Geräten. Eingehende Spenden oder Fördermittel werden vorrangig für diese EMV- und Funkprüfungen durch ein geeignetes Labor eingesetzt.
 
 Hinweise zum Urheberrecht und Eigentumsschutz:
 

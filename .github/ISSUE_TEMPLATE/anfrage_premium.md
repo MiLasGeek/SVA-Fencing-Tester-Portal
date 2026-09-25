@@ -1,37 +1,36 @@
 ---
-name: 'Anfrage: Hardware (Platinen, Geräte, Ersatzteile)'
-about: Für Vereine, Fechter und DIY-Bauer auf Non-Profit-Basis.
-title: '[Anfrage]: Hardware – '
+name: 'Anfrage: Evaluierungskit für Verein'
+about: Für benannte Vereine mit sachkundiger Projektleitung in der dokumentierten Entwicklungsphase.
+title: '[Anfrage]: Evaluierungskit – '
 labels: anfrage
 ---
 
 ### 📢 Wichtige Rahmenbedingungen (Bitte vorab lesen)
 Mit dem Absenden dieser Anfrage nimmst du Folgendes zur Kenntnis:
 1. Das Projekt wird derzeit von einer einzelnen Privatperson ehrenamtlich in der Freizeit betrieben; eine Gewinnabsicht besteht nicht.
-2. Die Kosten decken rein die **Beschaffung und Fertigung zum Selbstkostenpreis** (ohne Gewinn). Die Preise können sich je nach Marktlage der Bauteile ändern.
-3. Die Fertigung erfolgt **nach zeitlicher Verfügbarkeit** in der Freizeit. Bitte plane Wartezeiten ein.
-4. **Kostenhinweis:** Bauteile werden über offizielle Distributoren wie Mouser und Aisler beschafft. Eine mögliche Weitergabe erfolgt zu den tatsächlich angefallenen Brutto-Materialkosten ohne Gewinnaufschlag und nur in kleinen, handbestückbaren Stückzahlen. Die Angaben werden vor einer tatsächlichen Bereitstellung erneut geprüft.
+2. Das Kit ist nicht CE-gekennzeichnet und wird ausschließlich als kundenspezifisches Evaluierungskit zur dokumentierten Forschung und Entwicklung überlassen. Es ist nicht für Verbraucher, eine allgemeine Marktbereitstellung oder den regulären Vereinsbetrieb bestimmt.
+3. Der Verein benennt eine sachkundige Projektleitung, führt die Endmontage selbst durch und verwendet das Kit ausschließlich in der dokumentierten Forschungs- und Entwicklungsumgebung.
+4. Private Fechter erhalten keine Einheit direkt. Eine andere Bereitstellung wird erst nach abgeschlossener Laborprüfung und Konformitätsbewertung geprüft.
 
 ---
 
 ### 👤 Projektrelevante Daten
 *Bitte beachte, dass dieses Issue öffentlich einsehbar ist. Trage hier aus Datenschutzgründen keine privaten Telefonnummern oder privaten Adressen ein!*
 
-* **Verein / Landesverband:** 
+* **Verein / Landesverband:**
+* **Name und Funktion der sachkundigen Projektleitung:**
+* **Dokumentierter Forschungs- und Entwicklungszweck / Einsatzort:**
 * **Gewünschte Art der Kontaktaufnahme:** 
   - [ ] Bitte kontaktiert mich hier direkt über dieses GitHub-Issue.
   - [ ] Ich sende meine privaten Kontaktdaten (Name, Lieferadresse, E-Mail) parallel per E-Mail an die Adresse aus dem [Impressum](../../IMPRINT.md) (Betreff: Hardware-Anfrage + dein GitHub-Username).
 
 ---
 
-### 🛠️ Gewünschte Hardware-Komponenten
-*Bitte kreuze die zutreffenden Komponenten an (Ersetze `[ ]` durch `[x]`):*
-- [ ] **Komplettgerät** (Einsatzbereit inkl. Premium-Gehäuse, vorbestückter PCB, Akku & Powerbank-Platine)
-- [ ] **Bestückte PCB** (Inkl. Akku und Powerbank-Platine – ohne Gehäuse)
-- [ ] **Ersatzteil (Hardware):** Bestückte Hauptplatine einzeln
-- [ ] **Ersatzteil (Display):** Austausch-Display
-- [ ] **Ersatzteil (Gehäuse):** Premium-Gehäuse als Ersatzteil
-- [ ] **Verschleißteil-Satz:** (z. B. Ersatzclips/-puffer)
+### 🛠️ Evaluierungskit
+
+- [ ] Wir beantragen ein kundenspezifisches Evaluierungskit und führen die Endmontage selbst durch.
+- [ ] Wir nutzen das Kit ausschließlich für den oben beschriebenen Forschungs- und Entwicklungszweck.
+- [ ] Wir geben das Kit nicht an Verbraucher oder Dritte weiter und verwenden es nicht im regulären Vereinsbetrieb.
 
 ---
 
