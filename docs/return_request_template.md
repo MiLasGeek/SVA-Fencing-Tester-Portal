@@ -7,8 +7,10 @@ GitHub-Issue veröffentlichen.
 ## Kontaktaufnahme
 
 Vor einer Rückgabe bitte zunächst über das Projektportal oder die im Impressum
-genannte Kontaktmöglichkeit melden. Die Rücknahme wird anschließend abgestimmt;
-eine persönliche Übergabe ist der Regelfall.
+genannte Kontaktmöglichkeit melden. Bei der geringen Stückzahl ist die
+Rücknahme individuell handhabbar. Eine persönliche Übergabe ist der Regelfall;
+ein Versand ist nicht ausgeschlossen, muss wegen Verpackung, Transport und
+einem gegebenenfalls angeschlossenen Akku aber vorher abgestimmt werden.
 
 ## Angaben zur Rückgabe
 
@@ -25,7 +27,8 @@ eine persönliche Übergabe ist der Regelfall.
 ## Ablauf
 
 1. Rückgabe ankündigen und die Angaben oben übermitteln.
-2. Rückgabeweg mit dem Projekt abstimmen.
+2. Rückgabeweg mit dem Projekt abstimmen; bei Versand insbesondere Verpackung,
+   Transport und Akku-Zustand vorab klären.
 3. Kit möglichst vollständig und ohne angeschlossenen, vom Verein selbst
    beschafften Akku übergeben.
 4. Die weitere Prüfung, Wiederverwendung oder fachgerechte Entsorgung wird

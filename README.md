@@ -67,7 +67,7 @@ Es gibt keinen kommerziellen Webshop und keine allgemeine Geräteabgabe. Nicht C
 
 Das Projekt kann eine technische Akkuempfehlung bereitstellen. Der Akku wird nicht als Bestandteil des Evaluierungskits geliefert. Das vermeidet Gefahrgutversand und hilft, die Bereitstellungs- und Beschaffungskosten für Vereine niedrig zu halten. Er darf nur unbeschädigt, ohne Gewalt und gemäß der Kit-Anleitung angeschlossen werden. Die Endmontage durch den Verein ändert für sich allein weder die rechtliche Einordnung des Kits noch ersetzt sie die später erforderliche Konformitätsbewertung.
 
-Die Übergabe der Evaluierungskits erfolgt in der Regel persönlich. Dadurch entfällt Versandverpackung; die Anforderungen für eine spätere allgemeine Marktbereitstellung bleiben davon unberührt.
+Die Übergabe der Evaluierungskits erfolgt in der Regel persönlich. Dadurch entfällt Versandverpackung; die Anforderungen für eine spätere allgemeine Marktbereitstellung bleiben davon unberührt. Bei Rückgaben ist Versand nicht ausgeschlossen, wird aber vorab abgestimmt.
 
 Für die Rücknahme eines Evaluierungskits bitte vorab Kontakt aufnehmen. Der abgestimmte Rückgabeweg und eine Vorlage für die erforderlichen Angaben stehen unter [Rücknahme eines Evaluierungskits](./docs/return_request_template.md) bereit.
 
