@@ -55,6 +55,13 @@ und ebenfalls als gerätespezifischer Parameter gespeichert. Zusammen mit R0,
 den Qualitätskennwerten und der vollständigen Messreihe bleibt damit der
 jeweilige Abgleich zur Seriennummer nachvollziehbar.
 
+**Veranschaulichung:** Hätte die Testbrücke einen bekannten Widerstand von
+0,2 Ohm, könnte ein noch nicht korrigierter Systemoffset beispielhaft eine
+Anzeige von 0,8 Ohm verursachen. Nach dem Abgleich wird für diese Brücke
+entsprechend 0,2 Ohm angezeigt. Die Zahlen sind zur Erklärung absichtlich
+überhöht: Die Bedienoberfläche löst im regulären Prüfmodus in Schritten von
+0,1 Ohm auf.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
