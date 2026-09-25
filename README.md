@@ -69,6 +69,8 @@ Das Projekt kann eine technische Akkuempfehlung bereitstellen. Der Akku wird nic
 
 Die Übergabe der Evaluierungskits erfolgt in der Regel persönlich. Dadurch entfällt Versandverpackung; die Anforderungen für eine spätere allgemeine Marktbereitstellung bleiben davon unberührt.
 
+Für die Rücknahme eines Evaluierungskits bitte vorab Kontakt aufnehmen. Der abgestimmte Rückgabeweg und eine Vorlage für die erforderlichen Angaben stehen unter [Rücknahme eines Evaluierungskits](./docs/return_request_template.md) bereit.
+
 Private Fechter erhalten keine Einheit direkt, sondern nur über ihren Verein im Rahmen dieses Projektvorhabens. Eine andere Bereitstellung wird erst nach Abschluss der erforderlichen Laborprüfungen und der Konformitätsbewertung geprüft.
 
 Die technische Vorbereitung für die Laborprüfung ist abgeschlossen. Bei der kleinen Stückzahl liegen die Kosten voraussichtlich etwa beim Vier- bis Fünffachen der Kosten von zehn Geräten. Spenden und Fördermittel werden vorrangig für die EMV- und Funkprüfungen durch ein geeignetes Labor eingesetzt.

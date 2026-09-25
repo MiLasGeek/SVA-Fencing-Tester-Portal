@@ -21,6 +21,7 @@ Diese Übersicht führt zu den öffentlich verfügbaren Anleitungen und Hintergr
 - [Compliance-Status (Entwurf)](./compliance/README.md) – Vorläufiger CE-, CRA- und FIE-bezogener Status.
 - [Third-Party-Lizenzen](./compliance/THIRD_PARTY_LICENSES.md) – Versionsgebundener Nachweis der verwendeten Komponenten.
 - [Vorlage für Kostenbeleg](./receipt_template.md) – Dokumentationsvorlage für privaten Aufwandsersatz.
+- [Rücknahme eines Evaluierungskits](./return_request_template.md) – Vorlage und Ablauf für die abgestimmte Rückgabe.
 
 ## Hilfe und Rückmeldung
 
