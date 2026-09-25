@@ -75,6 +75,8 @@ Die technische Vorbereitung für die Laborprüfung ist abgeschlossen. Bei der kl
 
 Eine CE-Erklärung wird erst nach abgeschlossener, dokumentierter Konformitätsbewertung unterzeichnet. Vor einer allgemeinen Marktbereitstellung werden außerdem die jeweils anwendbaren Pflichten für Elektrogeräte, Batterien und Verpackungen - einschließlich Kennzeichnung, Registrierung, Rücknahme und Entsorgung - geprüft und erfüllt.
 
+Für eine einzelne B2B-Registrierung fallen nach der veröffentlichten Gebührenübersicht der stiftung ear derzeit beispielhaft rund 28,40 EUR netto einmalig sowie rund 131,20 EUR netto jährlich an, zuzüglich möglicher Entsorgungskosten. Bei einer Weitergabe von etwa zwanzig Geräten ist das ein erheblicher Fixkostenanteil. Die begrenzte Evaluierungsphase ermöglicht Vereinen daher einen preiswerten, dokumentierten Testeinsatz. Sie ist jedoch keine Zusage, dass keine Markt-, CE-, Entsorgungs- oder sonstigen Rechtsrisiken bestehen; jede Überlassung wird einzeln dokumentiert und rechtlich eingeordnet.
+
 👉 **[Evaluierungskit-Anfrage für einen Verein erstellen](../../issues/new?template=anfrage_premium.md)**
 
 ---

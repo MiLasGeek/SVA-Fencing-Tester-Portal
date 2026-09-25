@@ -33,6 +33,8 @@ No CE declaration will be signed and no CE marking will be affixed before the fi
 
 Before market release in Germany, the project must also determine and complete all applicable producer obligations for electrical equipment, batteries and packaging, including registration, marking, take-back and disposal information. Final assembly by a club or separate procurement of a recommended battery does not by itself remove these obligations. The evaluation-kit boundary remains subject to documented case-by-case legal review.
 
+For perspective, the published stiftung ear B2B example for one registration currently shows approximately EUR 28.40 net one-off and EUR 131.20 net per year, before any actual disposal costs. For a small run of around twenty devices, this is a material fixed-cost share. The limited evaluation phase is intended to let clubs test the equipment affordably while evidence is gathered for the final release. It does not guarantee exemption from market, CE, disposal, competition or other legal requirements; each supply must remain documented and be assessed for its specific circumstances.
+
 ---
 
 ## 🔒 3. EU Cyber Resilience Act (CRA) — Preliminary Security Concept
