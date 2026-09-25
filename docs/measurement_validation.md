@@ -21,6 +21,17 @@ Regelversion. Die FIE kann den Anwendungsbereich erweitern; außerdem können
 Veranstalter, nationale Verbände oder Prüfstellen weitergehende Anforderungen
 an ein vor Ort verwendetes Prüfmittel stellen.
 
+### Einsatz vor einem Turnier
+
+Als Vorabprüfung durch Verein oder Fechter kann der Tester helfen, Widerstand,
+Anschlussfehler und den Zusammenbau vor der Materialkontrolle zu erkennen und
+rechtzeitig zu beheben. Er ersetzt nicht die offizielle Abnahme. Für offizielle
+FIE-Wettbewerbe bestimmt der Veranstalter das Prüfpersonal; die Materialregeln
+verlangen dort unter anderem ein elektrisches Prüfgerät für Widerstand und den
+korrekten Zusammenbau (m.42). Die Entscheidung über Zulassung und die
+Kennzeichnung geprüfter Ausrüstung verbleiben bei der zuständigen
+Materialkontrolle.
+
 ## Messprinzip
 
 Die Widerstandsmessung verwendet eine ratiometrische Vierleiter-
