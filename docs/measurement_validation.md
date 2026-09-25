@@ -23,6 +23,11 @@ Der Buchsen- und Kontaktanteil ist bei einer realen Anschlussmessung physisch
 unvermeidbar; die R0-Kompensation macht ihn nachvollziehbar, statt ihn dem
 Prüfling als Messfehler zuzuordnen.
 
+Bei den ersten Testgeräten lag die beobachtete Streuung dieses Anteils im
+Bereich von rund 70 mOhm. Dieser Vorserienbefund wird bei weiteren Geräten
+fortgeschrieben; er ist kein zugesicherter Maximalwert für jede Hardware-
+Revision oder jeden Buchsenzustand.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
