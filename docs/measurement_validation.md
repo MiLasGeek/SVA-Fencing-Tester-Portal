@@ -15,6 +15,11 @@ temperaturstabilen Präzisions-Referenzwiderstand bestimmt. Die tatsächliche
 Referenz und die R0-Brückenkompensation werden bei der Geräteprovisionierung
 ermittelt und für das jeweilige Gerät dokumentiert.
 
+R0 gleicht den gerätespezifischen Widerstandsanteil von Buchsen und
+Messbrücke im Bereich von etwa 0,1 Ohm ab. Dieser Abgleich verändert nicht die
+Auflösung der Messung. Er bleibt normalerweise stabil und wird insbesondere bei
+auffälligem Verschleiß oder einer Beschädigung der Gerätebuchsen erneut geprüft.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
