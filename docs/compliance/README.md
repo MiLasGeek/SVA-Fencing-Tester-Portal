@@ -27,6 +27,12 @@ Until the final conformity assessment is complete, non-CE-marked units are suppl
 
 The technical preparation for laboratory testing is complete. Because of the small quantity, laboratory costs are expected to be approximately four to five times the cost of ten devices. Donations and grants are therefore reserved primarily for the required EMC and radio testing.
 
+### Market release gate
+
+No CE declaration will be signed and no CE marking will be affixed before the final device has a documented conformity assessment. For this project, a suitable EMC and radio laboratory report is a required release record. The report, technical documentation, risk assessment, instructions, manufacturer identification, and EU declaration of conformity must be complete and internally approved before any general market release.
+
+Before market release in Germany, the project must also determine and complete all applicable producer obligations for electrical equipment, batteries and packaging, including registration, marking, take-back and disposal information. Final assembly by a club or separate procurement of a recommended battery does not by itself remove these obligations. The evaluation-kit boundary remains subject to documented case-by-case legal review.
+
 ---
 
 ## 🔒 3. EU Cyber Resilience Act (CRA) — Preliminary Security Concept

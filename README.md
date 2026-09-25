@@ -71,6 +71,8 @@ Private Fechter erhalten keine Einheit direkt, sondern nur über ihren Verein im
 
 Die technische Vorbereitung für die Laborprüfung ist abgeschlossen. Bei der kleinen Stückzahl liegen die Kosten voraussichtlich etwa beim Vier- bis Fünffachen der Kosten von zehn Geräten. Spenden und Fördermittel werden vorrangig für die EMV- und Funkprüfungen durch ein geeignetes Labor eingesetzt.
 
+Eine CE-Erklärung wird erst nach abgeschlossener, dokumentierter Konformitätsbewertung unterzeichnet. Vor einer allgemeinen Marktbereitstellung werden außerdem die jeweils anwendbaren Pflichten für Elektrogeräte, Batterien und Verpackungen - einschließlich Kennzeichnung, Registrierung, Rücknahme und Entsorgung - geprüft und erfüllt.
+
 👉 **[Evaluierungskit-Anfrage für einen Verein erstellen](../../issues/new?template=anfrage_premium.md)**
 
 ---
