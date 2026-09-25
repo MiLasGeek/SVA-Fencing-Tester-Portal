@@ -81,6 +81,8 @@ Eine CE-Erklärung wird erst nach abgeschlossener, dokumentierter Konformitätsb
 
 Für eine einzelne B2B-Registrierung fallen nach der veröffentlichten Gebührenübersicht der stiftung ear derzeit beispielhaft rund 28,40 EUR netto einmalig sowie rund 131,20 EUR netto jährlich an, zuzüglich möglicher Entsorgungskosten. Bei einer Weitergabe von etwa zwanzig Geräten ist das ein erheblicher Fixkostenanteil. Die begrenzte Evaluierungsphase ermöglicht Vereinen daher einen preiswerten, dokumentierten Testeinsatz. Sie ist jedoch keine Zusage, dass keine Markt-, CE-, Entsorgungs- oder sonstigen Rechtsrisiken bestehen; jede Überlassung wird einzeln dokumentiert und rechtlich eingeordnet.
 
+Diese Abgrenzung dient nicht dazu, gesetzliche Pflichten zu umgehen. Sobald eine Überlassung als Marktbereitstellung einzuordnen ist, werden die erforderlichen Pflichten unabhängig von Stückzahl oder Kostendeckung erfüllt. Bei einer einmaligen Kleinserie wären die laufenden Registrierungs- und Organisationskosten jedoch ein erheblicher privater Zuschuss, weil Vereine die Geräte nur zum Selbstkostenpreis erhalten. Die Evaluierungsphase schafft deshalb einen nachvollziehbaren Weg, den tatsächlichen Bedarf und die technische Reife zunächst begrenzt zu prüfen.
+
 👉 **[Evaluierungskit-Anfrage für einen Verein erstellen](../../issues/new?template=anfrage_premium.md)**
 
 ---

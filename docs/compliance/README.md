@@ -35,6 +35,8 @@ Before market release in Germany, the project must also determine and complete a
 
 For perspective, the published stiftung ear B2B example for one registration currently shows approximately EUR 28.40 net one-off and EUR 131.20 net per year, before any actual disposal costs. For a small run of around twenty devices, this is a material fixed-cost share. The limited evaluation phase is intended to let clubs test the equipment affordably while evidence is gathered for the final release. It does not guarantee exemption from market, CE, disposal, competition or other legal requirements; each supply must remain documented and be assessed for its specific circumstances.
 
+This boundary is not intended to avoid statutory duties. If a supply is classified as making the product available on the market, the applicable duties will be fulfilled regardless of quantity or cost recovery. For a one-off small run, however, recurring registration and administration costs would be a material private subsidy because clubs receive units only at cost. The evaluation phase therefore provides a documented way to establish actual demand and technical maturity before a general release is considered.
+
 ---
 
 ## 🔒 3. EU Cyber Resilience Act (CRA) — Preliminary Security Concept
