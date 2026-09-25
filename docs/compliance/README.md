@@ -23,7 +23,7 @@ The following points define the intended compliance scope for the final device. 
 
 ### Evaluation phase
 
-Until the final conformity assessment is complete, non-CE-marked units are supplied only as custom-built evaluation kits to named fencing clubs with a qualified project lead. The club completes final assembly and uses the kit solely in a documented research and development environment. Private fencers do not receive units directly; any involvement is exclusively through their club within that documented project. This is not a general market release or a regular club operation.
+Until the final conformity assessment is complete, non-CE-marked units are supplied only as custom-built evaluation kits to named fencing clubs with a qualified project lead. The club independently procures and connects a suitable battery through the specified connector as part of final assembly, and uses the kit solely in a documented research and development environment. The project may provide a technical battery recommendation, but the battery is not part of the evaluation kit. Battery connection must follow the kit instructions and is not, by itself, a substitute for the required conformity assessment. Private fencers do not receive units directly; any involvement is exclusively through their club within that documented project. This is not a general market release or a regular club operation.
 
 The technical preparation for laboratory testing is complete. Because of the small quantity, laboratory costs are expected to be approximately four to five times the cost of ten devices. Donations and grants are therefore reserved primarily for the required EMC and radio testing.
 

@@ -9,7 +9,7 @@ labels: anfrage
 Mit dem Absenden dieser Anfrage nimmst du Folgendes zur Kenntnis:
 1. Das Projekt wird derzeit von einer einzelnen Privatperson ehrenamtlich in der Freizeit betrieben; eine Gewinnabsicht besteht nicht.
 2. Das Kit ist nicht CE-gekennzeichnet und wird ausschließlich als kundenspezifisches Evaluierungskit zur dokumentierten Forschung und Entwicklung überlassen. Es ist nicht für Verbraucher, eine allgemeine Marktbereitstellung oder den regulären Vereinsbetrieb bestimmt.
-3. Der Verein benennt eine sachkundige Projektleitung, führt die Endmontage selbst durch und verwendet das Kit ausschließlich in der dokumentierten Forschungs- und Entwicklungsumgebung.
+3. Der Verein benennt eine sachkundige Projektleitung, beschafft einen geeigneten Akku selbst, führt dessen Anschluss über den vorgesehenen Steckverbinder im Rahmen der Endmontage durch und verwendet das Kit ausschließlich in der dokumentierten Forschungs- und Entwicklungsumgebung.
 4. Private Fechter erhalten keine Einheit direkt. Eine andere Bereitstellung wird erst nach abgeschlossener Laborprüfung und Konformitätsbewertung geprüft.
 
 ---
@@ -29,6 +29,7 @@ Mit dem Absenden dieser Anfrage nimmst du Folgendes zur Kenntnis:
 ### 🛠️ Evaluierungskit
 
 - [ ] Wir beantragen ein kundenspezifisches Evaluierungskit und führen die Endmontage selbst durch.
+- [ ] Wir beschaffen den geeigneten Akku selbst und schließen ihn nur unbeschädigt, ohne Gewalt und gemäß Kit-Anleitung an.
 - [ ] Wir nutzen das Kit ausschließlich für den oben beschriebenen Forschungs- und Entwicklungszweck.
 - [ ] Wir geben das Kit nicht an Verbraucher oder Dritte weiter und verwenden es nicht im regulären Vereinsbetrieb.
 

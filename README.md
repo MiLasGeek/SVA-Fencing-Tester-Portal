@@ -63,7 +63,9 @@ Um den begrenzten Flash-Speicher des ESP32 zu schonen, teilen wir die Dokumentat
 
 ## 🛠️ Bezug von Hardware & Ersatzteilen (Non-Profit)
 
-Es gibt keinen kommerziellen Webshop und keine allgemeine Geräteabgabe. Nicht CE-gekennzeichnete Einheiten werden ausschließlich als kundenspezifische Evaluierungskits an benannte Vereine mit sachkundiger Projektleitung abgegeben. Der Verein übernimmt die Endmontage und verwendet das Kit ausschließlich in einer dokumentierten Forschungs- und Entwicklungsumgebung.
+Es gibt keinen kommerziellen Webshop und keine allgemeine Geräteabgabe. Nicht CE-gekennzeichnete Einheiten werden ausschließlich als kundenspezifische Evaluierungskits an benannte Vereine mit sachkundiger Projektleitung abgegeben. Der Verein übernimmt die Endmontage einschließlich der eigenständigen Beschaffung und des Anschlusses eines geeigneten Akkus über den vorgesehenen Steckverbinder und verwendet das Kit ausschließlich in einer dokumentierten Forschungs- und Entwicklungsumgebung.
+
+Das Projekt kann eine technische Akkuempfehlung bereitstellen. Der Akku wird nicht als Bestandteil des Evaluierungskits geliefert. Er darf nur unbeschädigt, ohne Gewalt und gemäß der Kit-Anleitung angeschlossen werden. Die Endmontage durch den Verein ändert für sich allein weder die rechtliche Einordnung des Kits noch ersetzt sie die später erforderliche Konformitätsbewertung.
 
 Private Fechter erhalten keine Einheit direkt, sondern nur über ihren Verein im Rahmen dieses Projektvorhabens. Eine andere Bereitstellung wird erst nach Abschluss der erforderlichen Laborprüfungen und der Konformitätsbewertung geprüft.
 
