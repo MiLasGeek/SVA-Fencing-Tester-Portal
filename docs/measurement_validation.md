@@ -50,6 +50,11 @@ dieser Reihe als R0 übernommen. Bei 299, also einer ungeraden Zahl von Samples,
 ist dieser Median ein tatsächlich erfasster Rohmesswert (Raw Count) und kein
 interpolierter Zwischenwert.
 
+Der Widerstand der verwendeten Testbrücke wird bei der Auswertung berücksichtigt
+und ebenfalls als gerätespezifischer Parameter gespeichert. Zusammen mit R0,
+den Qualitätskennwerten und der vollständigen Messreihe bleibt damit der
+jeweilige Abgleich zur Seriennummer nachvollziehbar.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
