@@ -32,6 +32,12 @@ korrekten Zusammenbau (m.42). Die Entscheidung über Zulassung und die
 Kennzeichnung geprüfter Ausrüstung verbleiben bei der zuständigen
 Materialkontrolle.
 
+Die Sichtkontrolle und die fachliche Gesamtbeurteilung bleiben dabei stets
+Aufgabe der zuständigen Prüferperson. Der Tester ist ein Prüfmittel: Er liefert
+elektrische Messwerte, eine verständliche Fehleranzeige und dokumentierbare
+Hinweise, trifft jedoch keine verbindliche Abnahmeentscheidung und kennzeichnet
+keine Ausrüstung als zugelassen.
+
 ## Messprinzip
 
 Die Widerstandsmessung verwendet eine ratiometrische Vierleiter-
