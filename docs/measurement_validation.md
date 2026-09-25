@@ -19,6 +19,9 @@ R0 gleicht den gerätespezifischen Widerstandsanteil von Buchsen und
 Messbrücke im Bereich von etwa 0,1 Ohm ab. Dieser Abgleich verändert nicht die
 Auflösung der Messung. Er bleibt normalerweise stabil und wird insbesondere bei
 auffälligem Verschleiß oder einer Beschädigung der Gerätebuchsen erneut geprüft.
+Der Buchsen- und Kontaktanteil ist bei einer realen Anschlussmessung physisch
+unvermeidbar; die R0-Kompensation macht ihn nachvollziehbar, statt ihn dem
+Prüfling als Messfehler zuzuordnen.
 
 ## Inhouse-Validierung
 
