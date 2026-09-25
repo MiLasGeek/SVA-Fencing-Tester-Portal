@@ -83,6 +83,8 @@ Für eine einzelne B2B-Registrierung fallen nach der veröffentlichten Gebühren
 
 Diese Abgrenzung dient nicht dazu, gesetzliche Pflichten zu umgehen. Sobald eine Überlassung als Marktbereitstellung einzuordnen ist, werden die erforderlichen Pflichten unabhängig von Stückzahl oder Kostendeckung erfüllt. Bei einer einmaligen Kleinserie wären die laufenden Registrierungs- und Organisationskosten jedoch ein erheblicher privater Zuschuss, weil Vereine die Geräte nur zum Selbstkostenpreis erhalten. Die Evaluierungsphase schafft deshalb einen nachvollziehbaren Weg, den tatsächlichen Bedarf und die technische Reife zunächst begrenzt zu prüfen.
 
+Eine geringe Zahl dokumentierter Einheiten im Feld ist für diese Evaluierung sinnvoll; eine Ausweitung in kleinen Einzelschritten wäre es nicht. Steigt die Nachfrage über diesen Rahmen hinaus, wird vor weiterer Bereitstellung auf professionelle beziehungsweise maschinelle Fertigung, eine abgeschlossene Konformitätsbewertung und die vollständige Marktfreigabe umgestellt.
+
 👉 **[Evaluierungskit-Anfrage für einen Verein erstellen](../../issues/new?template=anfrage_premium.md)**
 
 ---
