@@ -2,6 +2,8 @@
 
 Willkommen im offiziellen Portal für den SVA-Fencing-Tester. Dieses Projekt wird als private Non-Profit-Initiative im Ehrenamt geführt, um Fechtvereine und Fechter mit einem zuverlässigen Werkzeug für die Wartung und Materialkontrolle zu unterstützen.
 
+Der SVA-Fencing-Tester wird von Fechtern für Fechter ohne Gewinnabsicht entwickelt. Er soll den Sport durch erschwingliche Materialpflege attraktiver machen, bei Wartung und Turnierbetrieb Zeit sparen und nachvollziehbare, transparente Materialkontrollen unterstützen.
+
 ⚠️ **AKTUELLER STATUS: Entwicklungs- und Evaluierungsphase**
 Dieses öffentliche Portal veröffentlicht OTA-Updates, Handbücher, technische Hinweise und signierte Prüfparameter. Firmware und Webapp bleiben Closed Source; Quellcode und editierbare Elektronik-Layouts werden hier nicht veröffentlicht. Nicht CE-gekennzeichnete Einheiten sind keine allgemeinen Produkte und nicht für Verbraucher freigegeben.
 
