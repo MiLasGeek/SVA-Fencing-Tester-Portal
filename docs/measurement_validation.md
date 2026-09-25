@@ -35,6 +35,16 @@ nachvollziehbar und überprüfbar. Für eine bestimmte FIE-Regelversion wird die
 erforderliche Messauflösung jeweils gegen die datierte Regelreferenz und den
 dokumentierten Messnachweis abgeglichen.
 
+## R0-Abgleich bei der Inhouse-Provisionierung
+
+Der R0-Abgleich wird je Gerät aus einer Messreihe mit 299 Samples bestimmt.
+Währenddessen werden die Min-/Max-Spanne und die Standardabweichung überwacht.
+So lassen sich Ausreißer, instabile Kontakte oder ein auffälliger Messaufbau
+vor der Freigabe erkennen. Die vollständige Messreihe einschließlich der
+bewerteten Kennwerte wird in der Datei-Datenbank zur Seriennummer des Geräts
+abgelegt. Damit bleiben R0-Wert und zugrundeliegender Messnachweis für Wartung,
+erneute Prüfung und Ursachenanalyse zuordenbar.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
