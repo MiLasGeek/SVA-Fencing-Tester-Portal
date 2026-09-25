@@ -62,6 +62,11 @@ entsprechend 0,2 Ohm angezeigt. Die Zahlen sind zur Erklärung absichtlich
 überhöht: Die Bedienoberfläche löst im regulären Prüfmodus in Schritten von
 0,1 Ohm auf.
 
+Intern werden Messwerte weder gefiltert noch für die weitere Verarbeitung
+gerundet; sie bleiben mit voller Float-Auflösung erhalten. Die 0,1-Ohm-
+Darstellung dient allein der klaren Hauptanzeige. Diagramme und weiterführende
+Auswertungen verwenden die ungerundeten Messwerte.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
