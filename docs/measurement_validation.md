@@ -28,6 +28,13 @@ Bereich von rund 70 mOhm. Dieser Vorserienbefund wird bei weiteren Geräten
 fortgeschrieben; er ist kein zugesicherter Maximalwert für jede Hardware-
 Revision oder jeden Buchsenzustand.
 
+R0 ist ein systematischer Offset und begrenzt nicht die Messauflösung. Ein
+solcher Nullpunktabgleich könnte rechnerisch oder als Tara erfolgen; die
+gerätespezifisch dokumentierte R0-Kompensation macht den Abgleich jedoch
+nachvollziehbar und überprüfbar. Für eine bestimmte FIE-Regelversion wird die
+erforderliche Messauflösung jeweils gegen die datierte Regelreferenz und den
+dokumentierten Messnachweis abgeglichen.
+
 ## Inhouse-Validierung
 
 Für den validierten Hardware- und Firmwarestand ergab die Inhouse-Vermessung
