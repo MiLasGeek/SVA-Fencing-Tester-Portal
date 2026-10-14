@@ -6,6 +6,7 @@ Dieser Bereich enthält ausgewählte, nicht-editierbare Visualisierungen der Har
 
 - [Revision 2](./pcb/rev2/)
 - [Revision 4](./pcb/rev4/)
+- [Westen-Prüfstift-Adapterplatine](./pcb/vest-probe-adapter/)
 
 ## 3D-Modelle für Gehäuse-CAD
 
@@ -15,3 +16,9 @@ Die KiCad-exportierten STEP-Modelle enthalten die bestückten PCB-Baugruppen und
 - [Revision 4](./models/sva-fencing-tester-rev4.step)
 
 Die Abbildungen dienen ausschließlich zur Identifikation und Dokumentation der jeweiligen Hardware-Revision. Sie sind keine Fertigungsunterlagen.
+
+## Westen-Prüfstift-Adapterplatine
+
+Die separate Adapterplatine verbindet einen Westen-Prüfstift mit dem vorgesehenen Vest-Test-Anschluss. Die Ansichten dokumentieren die bestückte Baugruppe; sie enthalten keine editierbaren Leiterplatten-, Schaltplan- oder Fertigungsdaten.
+
+Die abgebildete Revision trägt bewusst **keine CE-Kennzeichnung**. Eine Kennzeichnung oder Konformitätserklärung wird erst nach Vorliegen der RED- und EMV-Laborberichte sowie einer abgeschlossenen, dokumentierten Konformitätsbewertung veröffentlicht.
