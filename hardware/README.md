@@ -20,5 +20,3 @@ Die Abbildungen dienen ausschließlich zur Identifikation und Dokumentation der 
 ## Westen-Prüfstift-Adapterplatine
 
 Die separate Adapterplatine verbindet einen Westen-Prüfstift mit dem vorgesehenen Vest-Test-Anschluss. Die Ansichten dokumentieren die bestückte Baugruppe; sie enthalten keine editierbaren Leiterplatten-, Schaltplan- oder Fertigungsdaten.
-
-Die abgebildete Revision trägt bewusst **keine CE-Kennzeichnung**. Eine Kennzeichnung oder Konformitätserklärung wird erst nach Vorliegen der RED- und EMV-Laborberichte sowie einer abgeschlossenen, dokumentierten Konformitätsbewertung veröffentlicht.
