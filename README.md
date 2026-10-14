@@ -23,7 +23,7 @@ Dieses öffentliche Portal veröffentlicht OTA-Updates, Handbücher, technische 
 * 📐 **[Hardware & 3D-Druck](./hardware)** – STL- und STEP-Dateien für das frei druckbare Basis-Gehäuse und alle gängigen Verschleißteile.
 * 📖 **[Online-Handbuch & Dokumentation](./docs)** – Das vollständige Online-Handbuch, ausführliche Reparaturanleitungen und die Material-Stückliste (BOM).
 * ⚙️ **[Technische Spezifikationen](./FEATURES.md)** – Das vollständige, detaillierte Leistungsspektrum und alle Geräteeigenschaften im Überblick.
-* ⏳ **[Entwicklungsgeschichte & Veröffentlichungsnachweis](./DEVELOPMENT_HISTORY.md)** – Die Chronologie der Hardware-Revisionen (Rev 1.0 bis Rev 4.0).
+* ⏳ **[Entwicklungsgeschichte & Veröffentlichungsnachweis](./DEVELOPMENT_HISTORY.md)** – Die Chronologie der Hardware-Revisionen (Rev 1.0 bis Rev 4.0) sowie der Planungsausblick für Rev 5.0.
 * 💻 **[Software-Architektur & Algorithmen](./SOFTWARE_ARCHITECTURE.md)** – Dokumentation der deterministischen Echtzeit-Schnittstellen und Lock-Free-Puffer.
 * ⚖️ **[Rechtliches & Impressum](./IMPRINT.md)** – Gesetzliche Anbieterkennzeichnung nach § 5 DDG sowie Haftungsausschlüsse für Software und Hardware.
 * 🛡️ **[Datenschutzerklärung](./PRIVACY.md)** – Transparente Informationen zur DSGVO-konformen Datenverarbeitung innerhalb dieses Repositories.

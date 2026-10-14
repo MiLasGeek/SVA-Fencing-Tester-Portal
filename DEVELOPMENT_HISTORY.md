@@ -30,6 +30,13 @@ Dieses Dokument hält die eigenständige, ehrenamtliche Entwicklung des SVA-Fenc
 * **Akustik-Revolution:** Kompletter Rauswurf der komplexen v2-Poti-Regelschleife. Ersetzung durch eine unhörbare, softwareseitig steuerbare 100-kHz-Dual-PWM-N-FET-Kaskade (Volume-PWM via passiven RC-Tiefpass an N-FET im Linearmodus kaskadiert mit digitalem Tone-N-FET gegen GND) für eine absolut verschleißfreie und knackfreie Lautstärkeregelung ohne mechanische Gehäusedurchbrüche.
 * **Eingangsschutz:** Integration von ultra-kapazitätsarmen (Low-C) Fail-Short-ESD-Schutzdioden-Arrays aus dem High-Speed-USB-Design zum Schutz der analogen 16-Bit-Messkanäle (ADS1115/ADG707), ohne die kritische 860-Hz-Abtastung zu dämpfen. Bei massiver Überlastung verschmelzen die Dioden kontrolliert zu einem permanenten Kurzschluss gegen Masse, schützen den Systemkern vor Zerstörung und bleiben dank des handlötoptimierten Designs (Zero BGA/QFN) dezentral austauschbar.
 
+#### 5. Revision 5.0: Planungsausblick
+* **Status:** Konzept- und Planungsphase. Revision 5 ist nicht verfügbar; technische Details, Kosten, Termin und Umfang können sich noch ändern.
+* **Funktionsumfang:** Der Funktionsumfang von Revision 4 soll vollständig erhalten bleiben.
+* **Bedienoberfläche:** Vorgesehen ist ein 3,5-Zoll-Display mit 480 × 320 Pixeln anstelle der bisherigen 320 × 240 Pixel. Die geplante 8-Bit-i8080-Anbindung mit 2D-DMA-Unterstützung soll die höhere Auflösung bei einer höheren Bildwiederholrate ermöglichen.
+* **Systemplattform:** Geplant ist der Einsatz eines ESP32-S3. Die Plattform wird zusammen mit dem größeren Display in das neue Layout und die Stromversorgung integriert.
+* **Mechanik, Energie und Kosten:** Der größere Display- und Systemaufbau benötigt einen größeren Akku. Dadurch ist gegenüber Rev 4 mit höheren Materialkosten zu rechnen. Wegen des 3,5-Zoll-Displays lässt sich das bisherige Aluminium-Strangpressgehäuse nicht ohne Weiteres weiterverwenden; die Gehäusekonstruktion ist daher Teil der Rev-5-Planung.
+
 ---
 
 ### 🔬 Kernmerkmale des geschützten Messprinzips
