@@ -9,6 +9,6 @@ Die Renderings zeigen Revision 4 zur visuellen Identifikation. Sie enthalten kei
 
 Das vollständige 3D-Modell für Gehäuse-CAD ist unter [sva-fencing-tester-rev4.step](../../models/sva-fencing-tester-rev4.step) verfügbar.
 
-![Bestückungsseite Rev 4](./pcb-rev4-bottom.png?v=2)
+![Bestückungsseite Rev 4](./pcb-rev4-bottom.png)
 
-![Display-/Frontansicht Rev 4](./pcb-rev4-display.png?v=2)
+![Display-/Frontansicht Rev 4](./pcb-rev4-display.png)
