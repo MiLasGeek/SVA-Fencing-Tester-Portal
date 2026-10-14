@@ -14,6 +14,7 @@ Die KiCad-exportierten STEP-Modelle enthalten die bestückten PCB-Baugruppen und
 
 - [Revision 2](./models/sva-fencing-tester-rev2.step)
 - [Revision 4](./models/sva-fencing-tester-rev4.step)
+- [Westen-Prüfstift-Adapterplatine](./models/pcb-adapter-v1.step)
 
 Die Abbildungen dienen ausschließlich zur Identifikation und Dokumentation der jeweiligen Hardware-Revision. Sie sind keine Fertigungsunterlagen.
 
