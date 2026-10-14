@@ -22,7 +22,7 @@ Die Abbildungen dienen ausschließlich zur Identifikation und Dokumentation der 
 
 Revision 5 befindet sich in der Konzept- und Planungsphase. Geplant ist, den Funktionsumfang von Revision 4 beizubehalten und die Bedienoberfläche auf ein 3,5-Zoll-Display mit 480 × 320 Pixeln zu erweitern. Das Display soll über ein 8-Bit-i8080-Interface mit 2D-DMA-Unterstützung angebunden werden, um die höhere Auflösung mit einer höheren Bildwiederholrate darzustellen.
 
-Vorgesehen ist ein ESP32-S31 sowie ein größerer Akku. Das größere Display, die erweiterte Systemplattform und die Energieversorgung erhöhen voraussichtlich die Materialkosten. Das bisherige Aluminium-Strangpressgehäuse ist für das 3,5-Zoll-Display nicht ohne Weiteres geeignet; die Gehäusekonstruktion wird deshalb im Zuge von Rev 5 neu geplant. Es gibt derzeit keine Rev-5-Renderings, CAD- oder Fertigungsdaten. Alle Angaben sind Planungsstand und können sich ändern.
+Vorgesehen ist ein ESP32-S31 sowie ein größerer Akku. Der ESP32-S31 stellt die benötigten Pins und den 2D-Beschleuniger bereit und soll mehr Rechenleistung sowie höheren PSRAM-Durchsatz ermöglichen; der Wechsel auf die RISC-V-basierte Plattform wird in der Planung berücksichtigt. Das größere Display, die erweiterte Systemplattform und die Energieversorgung erhöhen voraussichtlich die Materialkosten. Das bisherige Aluminium-Strangpressgehäuse ist für das 3,5-Zoll-Display nicht ohne Weiteres geeignet; die Gehäusekonstruktion wird deshalb im Zuge von Rev 5 neu geplant. Es gibt derzeit keine Rev-5-Renderings, CAD- oder Fertigungsdaten. Alle Angaben sind Planungsstand und können sich ändern.
 
 ## Westen-Prüfstift-Adapterplatine
 

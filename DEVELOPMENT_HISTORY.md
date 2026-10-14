@@ -34,7 +34,7 @@ Dieses Dokument hält die eigenständige, ehrenamtliche Entwicklung des SVA-Fenc
 * **Status:** Konzept- und Planungsphase. Revision 5 ist nicht verfügbar; technische Details, Kosten, Termin und Umfang können sich noch ändern.
 * **Funktionsumfang:** Der Funktionsumfang von Revision 4 soll vollständig erhalten bleiben.
 * **Bedienoberfläche:** Vorgesehen ist ein 3,5-Zoll-Display mit 480 × 320 Pixeln anstelle der bisherigen 320 × 240 Pixel. Die geplante 8-Bit-i8080-Anbindung mit 2D-DMA-Unterstützung soll die höhere Auflösung bei einer höheren Bildwiederholrate ermöglichen.
-* **Systemplattform:** Geplant ist der Einsatz eines ESP32-S3. Die Plattform wird zusammen mit dem größeren Display in das neue Layout und die Stromversorgung integriert.
+* **Systemplattform:** Geplant ist der Einsatz eines ESP32-S31. Er stellt die benötigten Pins und den 2D-Beschleuniger bereit und soll gegenüber Rev 4 mehr Rechenleistung sowie höheren PSRAM-Durchsatz ermöglichen. Der Wechsel auf die RISC-V-basierte Plattform wird in der Firmware- und Toolchain-Planung berücksichtigt.
 * **Mechanik, Energie und Kosten:** Der größere Display- und Systemaufbau benötigt einen größeren Akku. Dadurch ist gegenüber Rev 4 mit höheren Materialkosten zu rechnen. Wegen des 3,5-Zoll-Displays lässt sich das bisherige Aluminium-Strangpressgehäuse nicht ohne Weiteres weiterverwenden; die Gehäusekonstruktion ist daher Teil der Rev-5-Planung.
 
 ---
