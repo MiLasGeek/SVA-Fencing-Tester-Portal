@@ -48,4 +48,18 @@ We act according to the following best-effort timeline:
 * **Deployment:** The fixed version will be compiled, packaged into the encrypted `.ota` custom bundle format, and pushed to the public `main` branch.
 * **Public Advisory:** A security advisory detailing the fix will only be published (if necessary) after the patch is active and deployed to the fencing clubs to prevent exploits in the field.
 
+### Internal triage and correction record
+
+For each private security report, the project records the receipt date, affected revision and firmware version, reproduction result, assessed impact, decision, corrective action and the released fixed version. The report is classified as non-reproducible, out of scope, accepted for remediation, or a security incident requiring further escalation. The record is retained with the release documentation.
+
+If an accepted report indicates an actively exploited vulnerability or a severe incident, the project assesses the applicable legal reporting duty without delay and uses the then-current competent reporting channel. This process supplements the private reporter communication; it does not publish technical exploit details before affected clubs can apply an available correction.
+
+---
+
+## 🗓️ Lifecycle intention and future support period
+
+The project is intended to provide long-lived, repairable testers for fencing clubs. No discontinuation of firmware maintenance is planned during the current voluntary evaluation phase, and the design goal is that a tester can accompany a club for many years.
+
+This is an intention, not an unlimited support promise. Before any general market release, the project will determine and publish a concrete support end date (month and year), together with the factors used to set it, the supported hardware revisions and the security-update process. That release-specific statement will replace this evaluation-phase wording.
+
 Thank you for scanning responsibly, respecting our voluntary capacity, and helping us keep the fencing community secure!
