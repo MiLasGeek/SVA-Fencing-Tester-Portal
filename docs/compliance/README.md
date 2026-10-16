@@ -44,17 +44,29 @@ A small number of documented units in the field is appropriate for that evaluati
 ## 🔒 3. EU Cyber Resilience Act (CRA) — Preliminary Security Concept
 The SVA-Fencing-Tester (Rev 2 / Rev 4) is being developed according to "Security by Design" principles. The following describes the intended architecture and must be validated against the final hardware, firmware, update process and applicable CRA requirements:
 
-* **Zero Personal Data (GDPR Free):** The system does not collect, process, or store any personal user data or fencing club metrics.
+* **Data Minimization / No Tag Database:** The system does not collect, process, or store personal user data, fencing-club metrics, user profiles, or a database of RFID tags. A device loss therefore primarily represents the loss of the physical tester, rather than a disclosure of personal or membership data.
 * **Flash Encryption & Release-Content Confidentiality:** The ESP32 release configuration uses Flash Encryption to protect firmware and compiled secrets against direct flash readout. Together with the encrypted proprietary OTA container, it protects release contents at rest and during the controlled update workflow. Secure Boot is not part of the current product profile.
 * **FRAM-to-ESP Binding / Cloning Resistance:** During provisioning, the technical FRAM identity is cryptographically bound to the immutable ESP eFuse MAC. A random salt and a private HMAC-based binding tag are stored instead of the raw MAC; the binding key is neither stored in FRAM nor published. A copied FRAM record therefore does not pass normal startup on a different ESP. This binding is an integrity and cloning-resistance control, not a substitute for physical tamper protection.
 * **Identifier Handling:** The device MAC is not retained as a raw identifier in FRAM. The salted binding tag allows the firmware to verify the hardware association without making an FRAM dump self-explanatory.
-* **Configuration Export:** Wi-Fi credentials are not emitted as plain values in the standard configuration export. This export protection is separate from persistent FRAM protection and is not represented as a substitute for authenticated storage encryption.
+* **Wi-Fi Credentials and Configuration Export:** Wi-Fi passwords are not displayed by the device and are not emitted as plain values in a standard configuration export. Credential-bearing exports are protected separately from the persistent FRAM protection and this export protection is not represented as a substitute for authenticated storage encryption. Network names (SSIDs) are not treated as credentials and may remain visible where they are required to identify configured or available networks.
+* **Local Device Access Point:** The device's own Wi-Fi access point is an intentional local-service interface for commissioning and use of the web application. Its network name is necessarily discoverable in radio range; access credentials remain protected and are not disclosed through the normal user interface or standard configuration export.
 * **FRAM Parameter Encryption:** Persistent parameters in external FRAM use device-bound, authenticated encryption. CRC-protected alternating records additionally preserve integrity and power-loss resilience. The login feature and all functions that change protected settings are coupled to this storage protection.
 * **Minimized Attack Surface (No OS / No FTP):** The device does not run a generic operating system (No OS overhead). High-risk legacy protocols like FTP, Telnet, or SSH are completely omitted.
 * **No Internet Routing:** The device operates exclusively as a local, air-gapped server. It features no network forwarding, no internet gateway routing, and cannot connect to external cloud services.
 * **Hardened Server & Binary Streams:** The local network architecture consists solely of a locked-down, proprietary server utilizing a minimalist REST API and an isolated, purely binary measurement data stream for real-time hit telemetry.
 * **Strict Upload Restriction:** Outside of the authenticated OTA firmware update pipeline and the local configuration JSON import, no files can be uploaded or written to the internal LittleFS partition.
 * **Physical Service Boundary:** Secure Boot is not enabled. Flash encryption and the custom OTA format protect the confidentiality of release contents and the regular update paths, but they do not prevent physical reprogramming. Reprogramming requires opening the device, the custom programming adapter and an independently developed firmware for the custom hardware; a device modified in this way is outside the released and supported configuration.
+
+### Preliminary security risk treatment
+
+This is a working risk assessment for the released product profile, not a final CRA risk analysis. It will be reviewed with the final firmware, hardware and test evidence before release.
+
+| Scenario | Foreseeable impact | Design treatment and residual limitation |
+| --- | --- | --- |
+| Loss or theft of a tester | Physical loss of the tester; no intended disclosure of personal data or an on-device tag database | Data minimization limits the stored data set. Hardware-bound FRAM protection and encrypted flash raise the effort required to reuse copied storage. The device is not a physical anti-theft system and an opened, modified unit is outside the supported configuration. |
+| Read-out of a saved Wi-Fi configuration or backup | Exposure of a local Wi-Fi password | Passwords are not shown in the normal device interface or emitted as plain values in the standard export; credential-bearing exports and persistent parameters receive separate protection. SSIDs remain visible by design and must not be treated as secrets. |
+| Discovery of the device access point | Discovery of the local service network name | The AP exists deliberately for local operation. Its visible SSID is not a credential; access remains subject to the configured local access protection. The device does not route traffic to the Internet or provide cloud access. |
+| Copying an external FRAM image | Attempted cloning or recovery of configuration data on another unit | The provisioning binding checks the association with the ESP using a salted, private HMAC-based tag. This is a cloning-resistance measure, not a guarantee against all physical attacks. |
 
 ---
 
